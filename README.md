@@ -13,7 +13,7 @@ The RPM packages are maintained in euleros rpmpkg repositories.
 
 To trigger a new build, run:
 
-  $ sudo build_iso.sh
+  $ sudo ./build_iso.sh
 
 This will generate a installable ISO image finally. 
 
