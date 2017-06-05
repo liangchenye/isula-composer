@@ -1,0 +1,13 @@
+<template>
+    <name>isula</name>
+    <os>
+        <name>EULEROS-2</name>
+        <version>0</version>
+        <arch>x86_64</arch>
+        <install type='url'>
+            <url>http://192.168.130.1:45679</url>
+        </install>
+        <rootpw>Abc123</rootpw>
+    </os>
+</template>
+

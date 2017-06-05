@@ -1,0 +1,6 @@
+[base]
+name=base
+baseurl=http://35.185.171.199/isula
+enable=1
+gpgcheck=0
+priority=2
