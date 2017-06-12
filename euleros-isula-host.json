@@ -91,5 +91,6 @@
                                   "/usr/share/anaconda"]],
 
     "units": ["docker.service", "tuned.service", "docker-storage-setup.service"],
-    "default_target": "multi-user.target"
+    "default_target": "multi-user.target",
+    "add-files": [["euleros-isula-host.conf", "usr/etc/ostree/remotes.d/euleros-isula-host.conf"]]
 }
