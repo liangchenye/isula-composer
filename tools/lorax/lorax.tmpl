@@ -1,0 +1,16 @@
+## Lorax template to configure Anaconda to:
+##  1) Use the repository we embedded in the ISO
+##  2) Disable cloud-init (since we don't use it in the Anaconda path)
+##     but the package enables itself by default
+##  3) Work around https://bugzilla.redhat.com/show_bug.cgi?id=1193590
+
+<%page args='root, ostree_repo, kern_cmdline'/>
+mkdir install/ostree
+runcmd ostree --repo=${root}/install/ostree init --mode=archive-z2
+runcmd ostree remote add ostree-mirror --repo=${root}/install/ostree/ --set=gpg-verify=false ${ostree_repo}
+runcmd ostree --repo=${root}/install/ostree/ pull --mirror ostree-mirror euleros-antos-host/2/x86_64/standard
+
+append usr/share/anaconda/interactive-defaults.ks "ostreesetup --nogpg --osname=euleros-antos-host --remote=euleros-antos-host --url=file:///install/ostree --ref=euleros-antos-host/2/x86_64/standard\n"
+append usr/share/anaconda/interactive-defaults.ks "services --disabled cloud-init,cloud-config,cloud-final,cloud-init-local\n"
+append usr/share/anaconda/interactive-defaults.ks "%post --erroronfail\ncp /etc/skel/.bash* /var/roothome\nfn=/etc/ostree/remotes.d/euleros-antos-host.conf; if test -f "<%text>${fn}</%text>" && grep -q -e '^url=file:///install/ostree' "<%text>${fn}</%text>"; then rm "<%text>${fn}</%text>"; fi\n%end\n"
+append usr/share/anaconda/interactive-defaults.ks 'bootloader --append="${kern_cmdline}"\n'

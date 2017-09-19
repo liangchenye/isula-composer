@@ -1,0 +1,29 @@
+kernel:
+  cmdline:
+addpackages:
+  - coreutils
+  - systemd
+  - lvm2
+  - grub2
+  - grub2-efi
+  - efibootmgr
+  - shim
+  - e2fsprogs
+  - tar
+  - gzip
+  - less
+  - openssh-server
+  - openssh-clients
+  - logrotate
+  - passwd
+  - vim-minimal
+  - sudo
+  - net-tools
+  - authconfig
+  - rsyslog
+  - ntp
+  - dracut-network
+rmpackages:
+files:
+  add:
+  remove:

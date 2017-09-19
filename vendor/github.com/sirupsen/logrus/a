@@ -1,0 +1,5124 @@
+commit a3f95b5c423586578a4e099b11a46c2479628cac
+Author: dmathieu <42@dmathieu.com>
+Date:   Thu Jul 13 13:42:50 2017 +0200
+
+    add changelog entry about making SetLevel public
+
+commit c26a3edef12b4566ab0777c5236518eeb6ef77f9
+Merge: 1fe8319 20d755e
+Author: Damien Mathieu <dmathieu@salesforce.com>
+Date:   Thu Jul 13 13:42:06 2017 +0200
+
+    Merge pull request #574 from stevejarvis/master
+    
+    Export logger's set level function to address #503.
+
+commit 1fe8319fcaef78ef9220c9b05178df0f871dbc5d
+Merge: 3f40c78 1fb8942
+Author: Damien Mathieu <dmathieu@salesforce.com>
+Date:   Wed Jul 12 18:35:25 2017 +0200
+
+    Merge pull request #584 from Jimdo/changelog
+    
+    Mention quoting bugfix in CHANGELOG
+
+commit 1fb89425423e0882d77d087f2a8f997e533a34a8
+Author: Paul Seiffert <paul.seiffert@jimdo.com>
+Date:   Wed Jul 12 18:16:53 2017 +0200
+
+    Mention quoting bugfix in CHANGELOG
+
+commit 3f40c78a45ea8f1124cddb831676040e4e896de0
+Merge: 10e5e38 b019ab4
+Author: Damien Mathieu <dmathieu@salesforce.com>
+Date:   Wed Jul 12 18:14:13 2017 +0200
+
+    Merge pull request #583 from Jimdo/fix_quoting_nonstring
+    
+    Quote non-string Values
+
+commit b019ab48c544b5429f6c2f2908a5f86f235daefb
+Author: Paul Seiffert <paul.seiffert@jimdo.com>
+Date:   Wed Jul 12 17:33:04 2017 +0200
+
+    Error is not a special case anymore
+
+commit 5f89343f84f01bd781cfc680d045148ea0a6d178
+Author: Paul Seiffert <paul.seiffert@jimdo.com>
+Date:   Wed Jul 12 17:29:56 2017 +0200
+
+    Generalize test case
+
+commit 4c4851c96ab0aefe478354f1cbce49060b3c474f
+Author: Paul Seiffert <paul.seiffert@jimdo.com>
+Date:   Wed Jul 12 17:16:13 2017 +0200
+
+    Reduce duplicate code
+
+commit b9cfd8264512c3534698605bc841c6b71521a69f
+Author: Paul Seiffert <paul.seiffert@jimdo.com>
+Date:   Wed Jul 12 17:15:13 2017 +0200
+
+    Quote non-string values if necessary
+
+commit 10e5e38b53df0f5f80e72a929c01af6c84d7f847
+Author: dmathieu <42@dmathieu.com>
+Date:   Wed Jul 12 14:33:57 2017 +0200
+
+    remove ^ from custom quote characters
+    
+    As of #563, this charater is not quoted anymore.
+
+commit 6f87387fae0328e62ef2543d047ca7ce8ccd7b01
+Merge: 398dd08 5d67428
+Author: Damien Mathieu <dmathieu@salesforce.com>
+Date:   Wed Jul 12 13:55:30 2017 +0200
+
+    Merge pull request #563 from meatballhat/unquote-more-chars
+    
+    Allow more chars in unquoted text formatter output
+
+commit 398dd088c274dab203f2528d28fbbb829df9f945
+Merge: 7f976d3 b97e8d4
+Author: Damien Mathieu <dmathieu@salesforce.com>
+Date:   Wed Jul 12 13:42:20 2017 +0200
+
+    Merge pull request #399 from pkieltyka/master
+    
+    TextFormatter: brighten up the blue
+
+commit 7f976d3a76720c4c27af2ba716b85d2e0a7e38b1
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Jul 10 10:32:56 2017 -0400
+
+    readme: link to comment on casing
+
+commit 75b918d052511de954ba192f756526621f6205b3
+Merge: 3d84af1 04a001c
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Jul 10 13:09:21 2017 -0400
+
+    Merge pull request #575 from Jimdo/quote_safely
+    
+    Safely format data when printing
+
+commit 04a001ce508c6946033a16224759b3e462a57337
+Author: Paul Seiffert <paul.seiffert@jimdo.com>
+Date:   Mon Jul 10 17:40:03 2017 +0200
+
+    Mention bugfix in changelog
+
+commit 0025402362434acb5a02999b920080debe8bba4f
+Author: Paul Seiffert <paul.seiffert@jimdo.com>
+Date:   Mon Jul 10 14:17:59 2017 +0200
+
+    Extract quoting into separate method
+
+commit 0383f49850e27656e3befd06dfaef6d224a94276
+Author: Paul Seiffert <paul.seiffert@jimdo.com>
+Date:   Mon Jul 10 14:09:37 2017 +0200
+
+    Use custom quote char and escape it
+
+commit f78f8d07f6aca1903611d049bf064c8cea107d9d
+Author: kpcyrd <git@rxv.cc>
+Date:   Mon Apr 24 19:27:50 2017 +0200
+
+    Safely format data when printing
+    
+    Fixes #531
+
+commit 3d84af1ae04512e1bd4fe2b23fc6975db255f79c
+Merge: 8c2f155 c37067a
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sun Jul 9 13:36:25 2017 -0400
+
+    Merge pull request #545 from shuLhan/shuLhan-hook-mattermost
+    
+    README: add hook for Mattermost
+
+commit 8c2f155eec6e0b2f3abd6acb8061867ff37e91d3
+Merge: 70f6d01 a279eba
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sun Jul 9 13:35:57 2017 -0400
+
+    Merge pull request #556 from Deseao/master
+    
+    Update test hook name
+
+commit 70f6d018e0d2fff93fcbbba3401d510871fdbbb6
+Merge: 59d0ca4 3963c93
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sun Jul 9 13:35:17 2017 -0400
+
+    Merge pull request #571 from mcandre/patch-1
+    
+    fix casing
+
+commit 20d755ea5e94d92e979f3fbb699844465a1a0530
+Author: Steve Jarvis <steve.jarvis@viasat.com>
+Date:   Fri Jul 7 16:29:37 2017 -0400
+
+    Export logger's set level function to address #503.
+
+commit 3963c935b8b238b36dd7d31d8a430c139a6b7251
+Author: Andrew Pennebaker <andrew.pennebaker@gmail.com>
+Date:   Thu Jul 6 17:21:34 2017 -0500
+
+    fix casing
+    
+    fix casing leftover from older logrus
+
+commit 59d0ca41e5faad81cac03f7a7d84ba80d9cc9673
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Jul 6 09:44:07 2017 -0400
+
+    readme: add note about lookign for maintainers
+
+commit 7dd06bf38e1e13df288d471a57d5adbac106be9e
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Jun 29 20:54:20 2017 -0400
+
+    readme: clarify casing issues further
+
+commit 3d4380f53a34dcdc95f0c1db702615992b38d9a4
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Jun 20 10:45:10 2017 -0400
+
+    readme: remove < 1.0.0 note from readme
+
+commit 5d674288571c9801c253e913d8d49c8e79230d40
+Author: Dan Buch <daniel.buch@gmail.com>
+Date:   Sun Jun 18 09:48:52 2017 -0400
+
+    Allow more chars in unquoted text formatter output
+
+commit a279ebafa6aef6a9d62e51ba02f397316e6f1838
+Author: Alex Haynes <alexhaynes93@gmail.com>
+Date:   Tue Jun 13 13:28:47 2017 -0500
+
+    Update hook name
+    
+    There is no hooks/null
+
+commit 85b1699d505667d13f8ac4478c1debbf85d6c5de
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Jun 8 18:14:41 2017 -0400
+
+    ci: v1.0.0 fix travis
+
+commit 202f25545ea4cf9b191ff7f846df5d87c9382c2b
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Jun 8 17:02:02 2017 -0400
+
+    changelog: bump to v1.0.0
+
+commit 68cec9f21fbf3ea8d8f98c044bc6ce05f17b267a
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Jun 6 16:59:45 2017 -0400
+
+    hooks: remove non-released null hook
+
+commit abb8cd67b69d9f376b419d4c1f728107316506f8
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Jun 6 16:59:16 2017 -0400
+
+    readme: update with reference to fixing glide
+
+commit 33a34430d1c3dc71777fdd677864928e5b5812bc
+Merge: 5b44a58 a62b153
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Jun 6 15:08:02 2017 -0400
+
+    Merge pull request #548 from shinji62/feature/adding_syslogtls_hook_readme
+    
+    Add TLS syslog hook to the readme.
+
+commit 5b44a589cabbb46c31bb7111d08423de18fdf7e6
+Merge: d3731ac 0afea37
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Jun 6 15:07:04 2017 -0400
+
+    Merge pull request #547 from bobtfish/rename_syslog
+    
+    Update due to rename of github account
+
+commit d3731ac0267e2871cc904a79efb9e5f52f0b48b2
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Jun 6 15:05:30 2017 -0400
+
+    readme: more explicit case instructions
+
+commit a62b1531c0b6f08944e96850e76a95a1dd6e8f9b
+Author: Etourneau Gwenn <gwenn.etourneau@gmail.com>
+Date:   Thu May 25 09:53:41 2017 +0900
+
+    Updating Readme to add syslogtls repo.
+
+commit 0afea37159ef443ea0ca20dbd45ad7006b95edfe
+Author: Tomas Doran <tdoran@yelp.com>
+Date:   Fri May 19 13:00:16 2017 +0100
+
+    Update due to rename of github account
+
+commit c37067a498dc26574251f8499c3d8f6c60168b01
+Author: Shulhan <m.shulhan@gmail.com>
+Date:   Thu May 18 17:03:42 2017 +0700
+
+    README: add hook for Mattermost
+
+commit 5e5dc898656f695e2a086b8e12559febbfc01562
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon May 15 06:45:16 2017 -0400
+
+    travis: clean up
+
+commit 0efc3b9c6f225cbefcd4bd77c471221637c91223
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon May 15 06:34:03 2017 -0400
+
+    travis: don't go get recursively
+
+commit ce6942b8d7f0d1fda9a14bb11e5ccda2276c7826
+Merge: 8ac8861 6054749
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon May 15 06:33:06 2017 -0400
+
+    Merge pull request #507 from alxrem/patch-1
+    
+    Fixed typo in the comment
+
+commit 8ac8861ee555efe2a7a3e65cf0057d8763ff9f8b
+Merge: df6d5a7 6223de3
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon May 15 06:32:00 2017 -0400
+
+    Merge pull request #511 from jqin/master
+    
+    Fix the JSONFormatter example comment
+
+commit df6d5a71153f75a1192903835c8217b146f6de1a
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon May 15 06:31:03 2017 -0400
+
+    travis: don't go get
+
+commit 1ba5ca0adbaa73818bacc32a31fb8c21fab33025
+Merge: 109740c 56103bc
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon May 15 06:27:40 2017 -0400
+
+    Merge pull request #482 from chmllr/patch-1
+    
+    Fixes typo
+
+commit 109740c07e5184de4f922c2ec80a93ebe3e121e4
+Merge: a5274db fec838f
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon May 15 06:27:12 2017 -0400
+
+    Merge pull request #508 from tsarpaul/patch-2
+    
+    Added SQS Hook
+
+commit a5274db378ec95426a007a4c5682ed4d1686883f
+Merge: acfabf3 532c891
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon May 15 06:25:19 2017 -0400
+
+    Merge pull request #541 from hacdias/patch-1
+    
+    Enable ANSI colors for Windows 10 and newer
+
+commit 532c891a8976a5f9812031f01dfd26992bf08707
+Author: Henrique Dias <hacdias@gmail.com>
+Date:   Fri May 12 22:28:26 2017 +0100
+
+    Update terminal_windows.go
+
+commit acfabf31db8f45a9174f54a0d48ea4d15627af4d
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri May 12 15:21:58 2017 -0400
+
+    logrus: use lower-case in comments and examples
+
+commit f1444e62a8e2fad7dfded2086fc7a3015b09df70
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri May 12 15:15:51 2017 -0400
+
+    hooks: add null logger test
+
+commit a9ab54b9d5f3b2e945f9eda26ef0759f3ba3a46e
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri May 12 15:09:01 2017 -0400
+
+    readme: add note on casing
+
+commit a06c2db727877572754835b0a159048fa6d1852a
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri May 12 14:51:38 2017 -0400
+
+    hooks: add a null logger for the lower-case import
+
+commit 79043dd8d594e6ef8dfdfcce9a5b34b093349b23
+Merge: 62f9401 8df512b
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri May 12 14:52:41 2017 -0400
+
+    Merge pull request #540 from JodeZer/master
+    
+    fix readme example go import path
+
+commit 3454d74a4c8ac5c744770ebb3d61d8edd0e7b34d
+Author: Henrique Dias <hacdias@gmail.com>
+Date:   Fri May 12 12:12:49 2017 +0100
+
+    Enable ANSI colors on Windows 10 and newer
+
+commit 62f94013e5862ca79b0622b72f2442457ed1de31
+Merge: 21173bb 7e4197a
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri May 12 06:11:14 2017 -0400
+
+    Merge pull request #527 from flimzy/race
+    
+    Protect test hook entries with a mutex
+
+commit 21173bb50a27b7390a8e9287c8e43cd67aa9acfa
+Merge: 2c677e6 e371513
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri May 12 06:07:14 2017 -0400
+
+    Merge pull request #535 from mattias-lundell/patch-1
+    
+    Fixed small typo in example.
+
+commit 2c677e6a5e5ae8e1b967f1efcf2c3dbaaf625b2d
+Merge: 5b60b3d 3bcb093
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri May 12 06:06:32 2017 -0400
+
+    Merge pull request #512 from LTD-Beget/fix/datarace-setlevel
+    
+    Fix SetLevel data-race
+
+commit 8df512bed53e580bf89df9683a2da0bd08d2f962
+Author: JodeZer <jeffery1993@hotmail.com>
+Date:   Thu May 11 18:19:16 2017 +0800
+
+    fix readme example go import path
+
+commit e3715134c9aa63f8ee511fbf1a52f06d0e053c87
+Author: Mattias Lundell <capitrane@gmail.com>
+Date:   Fri May 5 14:18:10 2017 +0200
+
+    Fixed small typo in example.
+
+commit 5b60b3d3ee017ed00bcd0225fcca7acab767844b
+Merge: 727dd38 012baad
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu May 4 09:10:19 2017 +0200
+
+    Merge pull request #533 from urjitbhatia/master
+    
+    Fix firehose hook url
+
+commit 727dd38ae799a9a261a0c4ecac42b0ee07f26000
+Merge: 508f304 8aa045e
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu May 4 09:08:58 2017 +0200
+
+    Merge pull request #534 from dlespiau/20170503-fix-md-links
+    
+    readme: Fix md links
+
+commit 508f304878257fb578be3e863e3990ed9ec3aa2e
+Merge: 10f801e dba7a9f
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed May 3 20:34:05 2017 +0200
+
+    Merge pull request #528 from flimzy/go1.8
+    
+    Add Go 1.8 to the testing matrix
+
+commit 8aa045e2957068e39eac9f342fc48459d2c389c5
+Author: Damien Lespiau <damien.lespiau@intel.com>
+Date:   Wed May 3 17:23:24 2017 +0100
+
+    readme: Fix md links
+    
+    There were a couple of spaces between ']' and '(' causing the links to
+    be misrendered.
+    
+    Signed-off-by: Damien Lespiau <damien.lespiau@intel.com>
+
+commit 012baad06cfa72c112c62c99cc4e7ed9e3ee8037
+Author: Urjit Singh Bhatia <urjitsb87@gmail.com>
+Date:   Tue May 2 10:47:34 2017 -0700
+
+    Fix firehose hook url
+    
+    Firehose hook url was broken. Correct url is: https://github.com/beaubrewer/logrus_firehose
+
+commit dba7a9fd255a2f3c79b3c8d85c17d73a799e846d
+Author: Jonathan Hall <flimzy@flimzy.com>
+Date:   Thu Apr 20 09:50:47 2017 +0200
+
+    Add Go 1.8 to the testing matrix
+    
+    And use the .x versions, so the latest versions of each Go release is used.
+
+commit 7e4197a54fa63f4dcc875450bfa4e8609f3bfecc
+Author: Jonathan Hall <flimzy@flimzy.com>
+Date:   Thu Apr 20 09:37:32 2017 +0200
+
+    Add a small warning comment
+
+commit cc6ca6f305195f1bc8bef5ae2f82cdc8b08e5265
+Author: Jonathan Hall <flimzy@flimzy.com>
+Date:   Thu Apr 20 09:33:10 2017 +0200
+
+    Protect test entries with a mutex
+
+commit ab2de9ffb1df145ad7ab5326354909854534fa1d
+Author: Jonathan Hall <flimzy@flimzy.com>
+Date:   Thu Apr 20 09:29:15 2017 +0200
+
+    Fix a few comments to conform to Go standards
+
+commit 6223de399c95ccd2e0eec42c47f2f2f6097dcaaf
+Author: Jay Qin <jay.qin@revinate.com>
+Date:   Thu Mar 23 09:50:46 2017 -0700
+
+    Fix the JSONFormatter example comment
+
+commit 3bcb09397d6d88e7676a9bc8433ca11ba5304837
+Author: DmitriyMV <Codeprojtwo@gmail.com>
+Date:   Thu Mar 23 19:13:19 2017 +0300
+
+    This commit fixes data race using atomics. We switch type of level from uint8 to uint32 but due memory alignment on most platforms it will not result in any additional memory.
+
+commit fec838f389854910bd1e9a7ea77ddf189f11fc2f
+Author: Paul Litvak <litvakpol@012.net.il>
+Date:   Wed Mar 22 22:32:29 2017 +0200
+
+    Added SQS Hook
+
+commit 6054749f370e8e7ca0e6c73762d4cefb45cbc3f1
+Author: Alexey Remizov <alexey@remizov.org>
+Date:   Wed Mar 22 17:09:05 2017 +0300
+
+    Fixed typo in the comment
+
+commit 10f801ebc38b33738c9d17d50860f484a0988ff5
+Merge: f3b677a add5458
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri Mar 17 10:32:14 2017 -0400
+
+    Merge pull request #498 from beaubrewer/patch-1
+    
+    Update README.md
+
+commit f3b677a4dc6d90373325e325b87c4c29502a1e70
+Merge: 547e984 f054278
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri Mar 17 10:32:04 2017 -0400
+
+    Merge pull request #499 from Bo0mer/master
+    
+    Fix typo
+
+commit 547e984ad93a90192134fc0fdb57a468edb514fe
+Merge: 9f8e3f5 169c157
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Mar 15 11:13:20 2017 -0400
+
+    Merge pull request #480 from xulike666/fix-dead-url
+    
+    Fix dead url for alt_exit.go
+
+commit 9f8e3f5df836901f77a81f02c004e01a5cc78f0c
+Merge: 634aa8b 9fd28e6
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Mar 15 11:13:05 2017 -0400
+
+    Merge pull request #490 from kz/patch-1
+    
+    Add Discordrus, a hook for Discord, to README.md
+
+commit 634aa8bc0a29d001af11fc61fe7cd6c62bc6491d
+Merge: 79fbc61 96acd6a
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Mar 15 11:12:54 2017 -0400
+
+    Merge pull request #494 from esap/patch-1
+    
+    add import for example
+
+commit 79fbc614d96cb2b1f731e1da2d1b5e7d4099b470
+Merge: ba1b36c ca9493d
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Mar 15 11:12:14 2017 -0400
+
+    Merge pull request #485 from mohanraj-r/patch-1
+    
+    Add missing quotes around `user_ip` in example for "Default Fields"
+
+commit ba1b36c82c5e05c4f912a88eab0dcd91a171688f
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Mar 14 15:23:53 2017 -0400
+
+    release 0.11.5
+
+commit 924f89f0e335c376a43251e732faea01bed6390a
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Mar 8 15:37:04 2017 -0500
+
+    changelog for #372
+
+commit 1deb2db2a6fff8a35532079061b903c3a25eed52
+Merge: 0208149 1fccefa
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Mar 8 15:36:35 2017 -0500
+
+    Merge pull request #372 from glasser/glasser/entry-writer
+    
+    Add Writer and WriterLevel to Entry
+
+commit f0542780a2209e75115bc66df91e28c6e7ea34eb
+Author: Ivan Borshukov <bo0merzzz@gmail.com>
+Date:   Tue Mar 7 18:02:20 2017 +0200
+
+    Fix typo
+
+commit 1fccefa2f44159e91a6d0094b24f90a82a890ee7
+Author: David Glasser <glasser@davidglasser.net>
+Date:   Mon Jun 20 15:55:49 2016 -0700
+
+    Add Writer and WriterLevel to Entry
+    
+    This lets you do things like:
+    
+        cmd := exec.Command("command")
+        stdout := logrus.WithField("fd", "stdout").Writer()
+        defer stdout.Close()
+        stderr := logrus.WithField("fd", "stderr").Writer()
+        defer stderr.Close()
+        cmd.Stdout = stdout
+        cmd.Stderr = stderr
+
+commit add54587ab0136faecacc0f8925f7187fe16e82f
+Author: Beau N. Brewer <beaubrewer@gmail.com>
+Date:   Wed Mar 1 12:26:05 2017 -0700
+
+    Update README.md
+    
+    Added AWS Firehose hook. This provides us with a nice log steam to S3 workflow with very little effort.
+
+commit 0208149b40d863d2c1a2f8fe5753096a9cf2cc8b
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Feb 27 07:44:09 2017 -0500
+
+    changelog: 0.11.4
+
+commit cf5e096eea12c862a28a7bf967f82b3c132b00c3
+Merge: dc71819 f9d4a06
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Feb 27 07:43:41 2017 -0500
+
+    Merge pull request #493 from 0xE0F/master
+    
+    Fixed compilation for Solaris
+
+commit dc71819687aaddfe31d7a2044de8d61ca7812da1
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Feb 27 07:07:50 2017 -0500
+
+    release 0.11.3
+
+commit 4058491e25742dd6056d5b055a0e9c6f74356c58
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Feb 27 07:07:31 2017 -0500
+
+    changelog: add 481
+
+commit aee0dbac51d623f907cc5312b5970c159f5acbd9
+Merge: 7f4b1ad 6b682c5
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Feb 27 07:05:40 2017 -0500
+
+    Merge pull request #481 from darrenmcc/import-io
+    
+    Fixed import
+
+commit 96acd6ab0441b5950c93da1841bc255115ccb3f1
+Author: 一零村长 <woylyn@qq.com>
+Date:   Fri Feb 24 11:58:06 2017 +0800
+
+    add import for example
+
+commit f9d4a063d13843279f4c2306fdd7442d5bf22e82
+Author: Denis Barakhtanov <dbarahta@argotech.io>
+Date:   Fri Feb 24 10:16:21 2017 +1100
+
+    Fixed compilation for Solaris
+    
+    There are missing "io" import and unused variable
+    Releated issues #471 #289
+
+commit 9fd28e6ccafc44cb1d38cf3059d0c79d3f33cb66
+Author: Kelvin Zhang <github@iamkelv.in>
+Date:   Fri Feb 17 14:09:07 2017 +0000
+
+    Add Discordrus, a hook for Discord, to README.md
+
+commit 7f4b1adc791766938c29457bed0703fb9134421a
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Feb 15 11:43:24 2017 -0500
+
+    changelog: add entries for formatter
+
+commit 67bca5dc4fe4e689c042885ca5b09e1df1356979
+Merge: 3f603f4 e98cd92
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Feb 15 11:41:55 2017 -0500
+
+    Merge pull request #484 from bbrks/text-formatter-quote-config
+    
+    Text formatter quote configuration
+
+commit e98cd92ccfea08009a411ce5310e1797f84e3b23
+Author: Ben Brooks <ben@bbrks.me>
+Date:   Wed Feb 15 13:08:26 2017 +0000
+
+    Address PR comments
+
+commit ca9493dc537aa9eb044a22e3eb0d151697dbe111
+Author: Mohan Raj Rajamanickam <mohanraj.cit@gmail.com>
+Date:   Tue Feb 14 16:37:12 2017 -0800
+
+    Fix quoted key field in Readme
+
+commit b545aee819549403a5074d8ce7590c5867253409
+Author: Ben Brooks <ben@bbrks.me>
+Date:   Tue Feb 14 11:51:23 2017 +0000
+
+    Add TextFormatter config for custom quote runes
+
+commit cfca98e6d9c0082625feae2fe6bde8cb955c370d
+Author: Ben Brooks <ben@bbrks.me>
+Date:   Tue Feb 14 10:53:03 2017 +0000
+
+    Add 'QuoteEmptyFields' option to TextFormatter
+
+commit 6b682c59338d48511d84bf97a11e72754ae2bc6b
+Author: Darren McCleary <darren.rmc@gmail.com>
+Date:   Mon Feb 13 10:56:35 2017 -0500
+
+    More import fixes
+
+commit 56103bcb33e17f8e6ba8c5b699e06e76678870a6
+Author: Christian Müller <chmllr@me.com>
+Date:   Fri Feb 10 16:30:30 2017 +0100
+
+    Fixes typo
+
+commit d82ae3267f00e51730a17237aa1aed5908081ec8
+Author: Darren McCleary <darren.rmc@gmail.com>
+Date:   Wed Feb 8 14:03:21 2017 -0500
+
+    Fixed import
+
+commit 169c157a103a24a5971a19366ac6293585c30804
+Author: Aaron.L.Xu <likexu@harmonycloud.cn>
+Date:   Wed Feb 8 19:18:14 2017 +0800
+
+    fix dead url for alt_exit.go
+
+commit 3f603f494d61c73457fb234161d8982b9f0f0b71
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Feb 7 13:34:08 2017 -0500
+
+    readme: add section on default fields
+
+commit c078b1e43f58d563c74cebe63c85789e76ddb627
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Feb 7 06:49:02 2017 -0500
+
+    changelog: add fixing windows terminal detection
+
+commit 066a382098c3a4e7532922004a1cc6f889a1e2df
+Merge: ac38cb3 5c8f169
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Feb 7 06:48:23 2017 -0500
+
+    Merge pull request #476 from majimboo/patch-1
+    
+    Fixed missing imports for windows terminal
+
+commit ac38cb37a804c3638225558ca89a9ee1fb0d5a5a
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Feb 7 06:40:37 2017 -0500
+
+    readme: fix markdown code syntax for stdlib example
+
+commit 5c8f1691bc900a172e4148d528645c7a4caf64f9
+Author: Majid Arif Siddiqui <majimboo@users.noreply.github.com>
+Date:   Tue Feb 7 11:28:14 2017 +0800
+
+    Fixed missing imports for windows terminal
+
+commit 080ca65fb5a85b6f2b42053b9a895d462ed0ddff
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Feb 6 19:56:22 2017 -0500
+
+    readme: add section on overriding stdlib logger
+
+commit feda23452af05568da16c028ff779b66d95b80db
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Feb 6 19:51:07 2017 -0500
+
+    readme: link to colorable for windows coloring
+
+commit b9def5b3c33f812a4f503538d1ee21eeb6787d6d
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Feb 6 19:44:51 2017 -0500
+
+    readme: even more hooks
+
+commit 38f1ab305781cc3dd4bf0f7d45f36d5e7db1bfc3
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Feb 6 19:40:39 2017 -0500
+
+    changelog: add for 0.11.0 and 0.11.1
+
+commit e2fcfb2fbaf72bc70ae06375da0f4de7b049822f
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Feb 6 19:40:31 2017 -0500
+
+    readme: add some entries from stale PRs
+
+commit 03bf27ef269ee364b345e5fd6d48be30bad3cabe
+Merge: 61e43dc 141e6dc
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Feb 6 19:32:13 2017 -0500
+
+    Merge pull request #471 from sirupsen/terminal-actual-fd
+    
+    text_formatter: detect tty based on fd
+
+commit 141e6dc6a6809c83c4fba8fecb687fd2776de5ed
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Feb 6 19:16:20 2017 -0500
+
+    readme: update with example of logging to file
+
+commit 11fbf0fa42b837cdd5b234470b53d03bad9e5041
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sun Feb 5 19:10:19 2017 -0500
+
+    text_formatter: fix race
+
+commit 1726e1744a80b3d1f736a74b8b617380ade59a4c
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sun Feb 5 09:21:03 2017 -0500
+
+    text_formatter: detect tty based on fd
+
+commit 61e43dc76f7ee59a82bdf3d71033dc12bea4c77d
+Merge: 800b0fc f761cee
+Author: Stephen Day <stevvooe@users.noreply.github.com>
+Date:   Thu Jan 12 17:19:11 2017 -0800
+
+    Merge pull request #467 from bengadbois/small_code_cleanup
+    
+    Small var declaration cleanup
+
+commit 800b0fc4a6cbf28a01d026ab54d6dec7050282fa
+Merge: d4158e8 5ed3e7d
+Author: Stephen Day <stevvooe@users.noreply.github.com>
+Date:   Wed Jan 11 13:52:18 2017 -0800
+
+    Merge pull request #465 from at15/fix/miniTS
+    
+    Remove miniTS in TextFormatter
+
+commit f761cee9106ce559af64826f9c66a73f38e51c27
+Author: Ben Gadbois <enharmonicdistortion@gmail.com>
+Date:   Wed Jan 11 19:19:12 2017 +0100
+
+    Small var declaration cleanup
+
+commit 5ed3e7dc937463e459202a4a318d5c4daada50a4
+Author: at15 <at15@outlook.com>
+Date:   Tue Jan 10 21:43:36 2017 -0800
+
+    Remove miniTS in TextFormatter
+    
+    - Related issues: https://github.com/sirupsen/logrus/issues/457
+    - miniTS use current time instead of time the log function is called,
+    which is inaccurate when hook takes a long time
+    - `miniTS` is removed and replaced by
+    `int(entry.Time.Sub(baseTimestamp)/time.Second)` in `printColored`
+    which is the only usage of `miniTS`
+
+commit d4158e8bbd3220596557f967617f1ff37bd93c80
+Merge: 2f991e5 7d228b5
+Author: Stephen Day <stevvooe@users.noreply.github.com>
+Date:   Tue Jan 10 12:37:04 2017 -0800
+
+    Merge pull request #452 from cjellick/readme-update
+    
+    Update readme example for switching  output
+
+commit 2f991e541cf88bf27f5675a79bd4c1440891fbeb
+Merge: 9b48ece cf456d3
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Jan 10 15:30:36 2017 -0500
+
+    Merge pull request #455 from puddingfactory/master
+    
+    Add Logentrus to README.md (hook for Logentries)
+
+commit 9b48ece7fc373043054858f8c0d362665e866004
+Merge: 881bee4 98b74aa
+Author: Stephen Day <stevvooe@users.noreply.github.com>
+Date:   Fri Jan 6 14:16:01 2017 -0800
+
+    Merge pull request #400 from carolynvs/disable-color-timestamp
+    
+    Allow disabling timestamps with colored output
+
+commit cf456d321e052c9c72e2a0f805c58da75e303ce0
+Author: puddingfactory <puddingfactory@users.noreply.github.com>
+Date:   Sat Dec 10 15:34:44 2016 -0600
+
+    Add Logentrus, hook for Logentries, to list
+
+commit 881bee4e20a5d11a6a88a5667c6f292072ac1963
+Merge: 3c3917e c92f900
+Author: Stephen Day <stevvooe@users.noreply.github.com>
+Date:   Thu Dec 1 18:35:07 2016 -0800
+
+    Merge pull request #446 from AndrewBurian/json-disable-timestamp
+    
+    Json disable timestamp
+
+commit 7d228b51ce25de4afcfa60e312d4a199c327cbb2
+Author: Craig Jellick <craig@rancher.com>
+Date:   Thu Dec 1 17:34:47 2016 -0700
+
+    Update readme example for switching output
+    
+    Clarifies that stderr is the default, not stdout.
+
+commit 3c3917e6254529d51056704e46bc9cbc973d028f
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Dec 1 18:55:03 2016 -0500
+
+    readme: apologize for casing issue
+
+commit 26809363aac4cc10d49171447009ac6bccc9c655
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Dec 1 18:53:16 2016 -0500
+
+    Revert "Merge pull request #384 from mnzt/master"
+    
+    This reverts commit 42b84f9ec624953ecbf81a94feccb3f5935c5edf, reversing
+    changes made to cf60a8c5d5961b200e093f8c9984640e31cb967d.
+
+commit 42b84f9ec624953ecbf81a94feccb3f5935c5edf
+Merge: cf60a8c 2e779ac
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Nov 30 15:35:45 2016 -0500
+
+    Merge pull request #384 from mnzt/master
+    
+    Renaming upper-case 'Sirupsen' to 'sirupsen'
+
+commit cf60a8c5d5961b200e093f8c9984640e31cb967d
+Merge: e400ff7 90915c9
+Author: Stephen Day <stevvooe@users.noreply.github.com>
+Date:   Wed Nov 30 12:16:55 2016 -0800
+
+    Merge pull request #449 from danielgtaylor-isp/patch-1
+    
+    Fix typo in README
+
+commit 90915c932628aa7dcf3d926b4370c72b23bcdbb6
+Author: Daniel Taylor <dtaylor@istreamplanet.com>
+Date:   Tue Nov 29 10:52:28 2016 -0800
+
+    Fix typo in README
+
+commit e400ff7861bce9661cf37c162ce3b7b303baf333
+Merge: a437dfd 6ecd392
+Author: Stephen Day <stevvooe@users.noreply.github.com>
+Date:   Mon Nov 28 14:57:24 2016 -0800
+
+    Merge pull request #447 from stevvooe/revert-example-compilation
+    
+    Compile examples filtered in #439
+
+commit 6ecd392994fb4b6022ffd537bfd281a10d2b3d20
+Author: Stephen J Day <stephen.day@docker.com>
+Date:   Wed Nov 23 16:20:51 2016 -0800
+
+    travis: build Go 1.7 as well, removed by revert
+    
+    Signed-off-by: Stephen J Day <stephen.day@docker.com>
+
+commit a89950b15175021d9d6606dcebe2e6c21af7cee6
+Author: Stephen J Day <stephen.day@docker.com>
+Date:   Wed Nov 23 16:19:58 2016 -0800
+
+    Revert "Updated .travis.yml to ignore /examples/"
+    
+    This reverts commit 140886f9dcb2b0a8d6dd197666306b92d5decc2f.
+
+commit c92f90003f2292b978bd2d6c47260c732173c9fa
+Author: Andrew Burian <andrew@axiomzen.co>
+Date:   Mon Nov 21 10:16:24 2016 -0800
+
+    Switched hardcoded string for const value
+
+commit 1d329ad042a28dd4694bc10a1e6ce3b9a5e67a3c
+Author: Andrew Burian <andrew@axiomzen.co>
+Date:   Mon Nov 21 10:09:59 2016 -0800
+
+    Added option to disable JSON timestamp
+    
+    Tests verify both the default and disabled case.
+
+commit a437dfd2463eaedbec3dfe443e477d3b0a810b3f
+Merge: abc6f20 fcf4b8f
+Author: Stephen Day <stevvooe@users.noreply.github.com>
+Date:   Fri Nov 18 11:45:39 2016 -0800
+
+    Merge pull request #396 from onetwopunch/customzable-json-keys
+    
+    Added customizable keys to JSON formatter
+
+commit fcf4b8f2294f4097a4cc70639c0f5eb067e1b49c
+Author: Ryan Canty <jrcanty@gmail.com>
+Date:   Fri Nov 18 11:02:11 2016 -0800
+
+    Added comment documentation for FieldMap
+
+commit d5ca23f998921ce222ad9227e09a254e68fda4b8
+Author: Ryan Canty <jrcanty@gmail.com>
+Date:   Thu Nov 17 15:16:46 2016 -0800
+
+    Added FieldMap to reduce potential struct bloat
+
+commit b2c6f8aa8b5298ac71ce8e3826c8cc417e6c7336
+Author: Ryan Canty <jrcanty@gmail.com>
+Date:   Thu Nov 17 11:28:41 2016 -0800
+
+    Added resolve method to clean up Format
+
+commit 2173899f8f5b34385d0713b79ad2c4ff2071a850
+Author: Ryan Canty <jrcanty@gmail.com>
+Date:   Mon Aug 15 11:04:25 2016 -0700
+
+    Added customizable keys to JSON formatter
+
+commit abc6f20dabf4b10195f233ad21ea6c5ba33acae0
+Merge: 528e338 65aed8c
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri Nov 11 07:09:51 2016 -0500
+
+    Merge pull request #440 from gemnasium/add-pglogrus
+    
+    Add pglogrus to README
+
+commit 528e33852cbb7234447974a9dd35d0081f068952
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri Nov 11 07:09:38 2016 -0500
+
+    Remove legacy go versions
+
+commit 1445b7a38228c041834afc69231b7966b9943397
+Merge: d264929 140886f
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Nov 8 14:08:11 2016 -0500
+
+    Merge pull request #439 from irfansharif/pre-go1.6-builds
+    
+    Updated .travis.yml to ignore /examples/
+
+commit 65aed8c49364d404fab2d74522332a3679137d92
+Author: Philippe Lafoucrière <philippe.lafoucriere@tech-angels.com>
+Date:   Thu Nov 3 21:59:20 2016 -0400
+
+    Add pglogrus to README
+
+commit d26492970760ca5d33129d2d799e34be5c4782eb
+Merge: 380f64d f76d643
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Nov 3 17:40:07 2016 -0400
+
+    Merge pull request #419 from aaronlehmann/fix-error-formatting
+    
+    Fix formatting of wrapped errors when colors are used
+
+commit 140886f9dcb2b0a8d6dd197666306b92d5decc2f
+Author: irfan sharif <irfanmahmoudsharif@gmail.com>
+Date:   Thu Nov 3 01:28:25 2016 -0400
+
+    Updated .travis.yml to ignore /examples/
+    
+    /examples/hook/hook.go with it's child dependency on airbrake/gobrake is
+    not backwards compatible pre-go1.6 due to use of the following:
+      - os.LookupEnv (introduced in go1.5)
+      - http.StatusTooManyRequests (introduced in go1.6)
+    ignoring the fetch and explicit test of /examples/ fixes failing go1.3,
+    go1.4, go1.5 builds.
+
+commit 380f64d344b252a007a59baa61f31820f59cba89
+Merge: 8de4982 32472f5
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Oct 31 10:45:02 2016 -0400
+
+    Merge pull request #412 from sagar8192/add-scribe-hook-description
+    
+    Add scribe hook
+
+commit 8de4982a7a7c23d8d174b23342b6384db30b8628
+Merge: 7371813 f7be9f0
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Oct 31 10:44:55 2016 -0400
+
+    Merge pull request #413 from toorop/master
+    
+    Add Pushover Hook
+
+commit 73718132904abd271f48196e14bd89fe0e439657
+Merge: 551ec64 0c8a99c
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Oct 31 10:44:43 2016 -0400
+
+    Merge pull request #421 from heralight/master
+    
+    Update README.md
+
+commit 551ec64450fe9ef0d632601179e6511f15a67cd9
+Merge: 3ec0642 ea5eab4
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Oct 31 10:44:29 2016 -0400
+
+    Merge pull request #422 from JJ/master
+    
+    Adds new logz.io hook by @ripcurld00d
+
+commit ea5eab4f4bfd0d7865aab70b6fc8ea50f749a4e6
+Author: JJ Merelo <jjmerelo@gmail.com>
+Date:   Sun Oct 9 13:02:24 2016 +0200
+
+    Adds new logz.io hook by @ripcurld00d
+
+commit 0c8a99c9b84247e9d52936ae51d8f46f8889250f
+Author: Alexandre Richonnier <heralight@users.noreply.github.com>
+Date:   Wed Oct 5 09:20:26 2016 +0200
+
+    Update README.md
+    
+    add link to Logrus and Viper integration Helper
+
+commit f76d643702a30fbffecdfe50831e11881c96ceb3
+Author: Aaron Lehmann <aaron.lehmann@docker.com>
+Date:   Wed Sep 28 11:55:00 2016 +0100
+
+    Fix formatting of wrapped errors when colors are used
+    
+    There are two different code paths for rendering a key/value pair. The
+    non-color version uses a type switch that handles specific types such as
+    "error", and the color version uses the %+v printf format specifier.
+    This causes an inconsistency between the two formats. In particular,
+    errors created using the github.com/pkg/errors package will include a
+    stack trace of where the error was created when printed to the terminal,
+    but not to a file. Printing the stack trace as part of the log field is
+    probably not the right behavior.
+    
+    The output is also inconsistent between the two forms because strings
+    are not quoted/escaped when colors are used. This can make log output
+    unparseable.
+    
+    Fix this by making both code paths use the type switch and escaping
+    rules. Fix the escaping code to pass the error value to Fprintf, not the
+    error itself, which seems to be necessary to avoid blank output with
+    errors created by github.com/pkg/errors.
+
+commit f7be9f0695a9945a07b0d57f49536cdc37f12fbc
+Author: Stéphane Depierrepont aka Toorop <toorop@toorop.fr>
+Date:   Mon Sep 19 16:09:08 2016 +0200
+
+    Add Pushover Hook
+
+commit 32472f55b62f98f9963e3be8d1c9de2138972a4c
+Author: Sagar Sadashiv Patwardhan <sagarp@yelp.com>
+Date:   Sun Sep 18 12:42:16 2016 -0700
+
+    Add scribe hook
+
+commit 3ec0642a7fb6488f65b06f9040adc67e3990296a
+Merge: 08a8a7c dfb0e1d
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Aug 29 16:23:21 2016 -0400
+
+    Merge pull request #343 from kaneshin/appengine-support
+    
+    terminal: Include appengine tag to compile for GAE
+
+commit 98b74aac5b7a98855050754bab2631a4a8ea92e3
+Author: Carolyn Van Slyck <me@carolynvanslyck.com>
+Date:   Wed Aug 24 16:59:41 2016 -0500
+
+    Allow disabling timestamps with colored output
+
+commit b97e8d402dbc518d9750c459466b4f9d35cc8788
+Author: Peter Kieltyka <peter.kieltyka@pressly.com>
+Date:   Tue Aug 23 13:23:35 2016 -0400
+
+    TextFormatter: brighten up the blue
+
+commit 2e779aca86f47cc5e073e555b50ea876423c371c
+Author: Toby <toby@connected-ventures.com>
+Date:   Tue Aug 16 17:04:58 2016 +0100
+
+    Correcting typos
+
+commit 08a8a7c27e3d058a8989316a850daad1c10bf4ab
+Merge: 58d2a6a 53cbb9d
+Author: Aaron Greenlee <aarongreenlee@gmail.com>
+Date:   Sat Aug 13 11:40:05 2016 -0400
+
+    Merge pull request #370 from frostyplanet/bufferpool
+    
+    Optimise speed
+
+commit 58d2a6a7038f260fc445685af4c2629e1c1eec5b
+Merge: a283a10 93985e4
+Author: Aaron Greenlee <aarongreenlee@gmail.com>
+Date:   Sat Aug 13 11:39:25 2016 -0400
+
+    Merge pull request #358 from gpolaert/patch-1
+    
+    Add new hook for Logmatic.io
+
+commit 53cbb9dc6df4a5ae2a1c85ff3a265b832d7667db
+Author: plan <plan@plan-tp>
+Date:   Sun Jun 19 04:08:25 2016 +0800
+
+    Reuse entry from the same logger
+
+commit 4c4ffbea1705e6a13ae08bf7904302ebb864ea6b
+Author: plan <plan@yunify.com>
+Date:   Thu Aug 11 01:39:36 2016 +0800
+
+    Add document for logger.SetNoLock()
+
+commit bc35b026f0f9469fbd784f9066e936722d144c27
+Author: plan <plan@plan-tp>
+Date:   Sun Jun 19 03:21:15 2016 +0800
+
+    Provide logger.SetNoLock() to remove locking during log output
+    
+    Locking is enabled by default. When file is opened with appending mode,
+    it's safe to write concurrently to a file. In this case user can
+    choose to disable the lock.
+
+commit cb2bda2c54ef6b2cb42e5f5e30bc7420ae40ab11
+Author: plan <plan@plan-tp>
+Date:   Sat Jun 18 22:20:51 2016 +0800
+
+    Add benchmark for logger
+
+commit 69df0d2ed71e288309a424ac82040635d7e29731
+Author: plan <plan@plan-tp>
+Date:   Sat Jun 18 21:47:44 2016 +0800
+
+    Use Buffer pool to allocate bytes.Buffer for formatter
+    
+    Entry.Reader() seams not necessary, removed
+
+commit c8b0c0e43b04fa5af90bddaff775cbd8d6fec7d5
+Author: Toby <toby@connected-ventures.com>
+Date:   Wed Jul 27 13:12:26 2016 +0100
+
+    Fixing import for airbrake and adding build constraint to example hook
+
+commit ed63efede8fb241e8cb6489c179c497b8a845519
+Author: Toby <toby@connected-ventures.com>
+Date:   Wed Jul 27 13:00:56 2016 +0100
+
+    re-adding airbrake import
+
+commit a5dbcc756c9a2fa9bafac6fb91bbbc5c372fcd28
+Author: Toby <toby@connected-ventures.com>
+Date:   Mon Jul 18 16:36:46 2016 +0100
+
+    Renaming 'Sirupsen' to 'sirupsen'
+
+commit a283a10442df8dc09befd873fab202bf8a253d6a
+Author: Aaron Greenlee <aarongreenlee@gmail.com>
+Date:   Fri Jul 15 22:56:31 2016 -0400
+
+    Improved documentation of Fatal Handlers
+
+commit 1d4b5462f871dc7cfca35491da16716deb59436e
+Merge: fcebd8d 357c4ea
+Author: Aaron Greenlee <aarongreenlee@gmail.com>
+Date:   Fri Jul 15 22:42:55 2016 -0400
+
+    Merge pull request #375 from powerchordinc/master
+    
+    Added Support to Call Handlers on Fatal
+
+commit fcebd8de863f1a8ddb70eceafc6c4091f35ca021
+Merge: 32055c3 1807336
+Author: Aaron Greenlee <aarongreenlee@gmail.com>
+Date:   Fri Jul 15 22:20:23 2016 -0400
+
+    Merge pull request #356 from tevino/patch-1
+    
+    Corrected a comment's typo
+
+commit 32055c351ea8b00b96d70f28db48d9840feaf0ec
+Merge: f3cfb45 4ee95f9
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Jul 12 20:17:32 2016 -0400
+
+    Merge pull request #382 from lpetre/remove_logstash_formatter
+    
+    Removing logstash formatter
+
+commit 4ee95f94628e192b42ac5190faa4768f1c7b31e7
+Author: Luke Petre <luke@proletariat.com>
+Date:   Tue Jul 12 21:21:34 2016 +0100
+
+    Removing logstash formatter
+
+commit 357c4eae02e4738fbba8e8d570547ae3a27c0105
+Author: Aaron Greenlee <agreenlee@powerchordsystem.com>
+Date:   Fri Jun 24 10:49:02 2016 -0400
+
+    Revised import path of logrus for pull-request CI
+
+commit ff52e76f67a398e1582e8678b9f2a04387ca4b2c
+Author: Aaron Greenlee <agreenlee@powerchordsystem.com>
+Date:   Fri Jun 24 10:24:56 2016 -0400
+
+    Go fmt alt exit addition
+
+commit a7755c5c03485e8c3b28921c740a96abfbf5888f
+Author: Aaron Greenlee <agreenlee@powerchordsystem.com>
+Date:   Fri Jun 24 10:23:56 2016 -0400
+
+    Enhanced fatal calls so exit handlers can be invoked
+    While GO offers the ability to recover from panic there is no way to intercept an os.Exit event. To allow graceful shutdown and clean-up or programs which use Logrus to Fatal out I've borrowed ideas from the `atexit` package and enhanced Logrus.
+    
+    Usage:
+    * When setting up the logger one call `RegisterExitHandler( func() {...} )` to add a handler that will be invoked for any `Fatal` call to the logger.
+
+commit f3cfb454f4c209e6668c95216c4744b8fddb2356
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Jun 1 07:32:10 2016 -0400
+
+    readme: fix example
+
+commit 6d9ae300aaf85d6acd2e5424081c7fcddb21dab8
+Merge: cd7d1bb 67fb1f3
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue May 24 09:24:53 2016 -0400
+
+    Merge pull request #360 from morenoh149/patch-1
+    
+    change 'log' -> 'logrus'
+
+commit 67fb1f35e6a75379dd98833a4e989954f1ab3756
+Author: Harry Moreno <morenoh149@gmail.com>
+Date:   Mon May 23 19:54:24 2016 -0400
+
+    change 'log' -> 'logrus'
+    
+    Change 'log' -> 'logrus' to fix syntax error
+
+commit 93985e4b77608e7085f33b04e7df1607e581b53b
+Author: Guillaume Polaert <guillaume@logmatic.io>
+Date:   Tue May 17 17:38:10 2016 +0200
+
+    Add new hook for Logmatic.io
+    
+    Logmatic.io is Saas-based log management solution.
+    We develop a simple hook in order to send your Logrus logs straight to Logmatic.io
+
+commit 18073362a7994a0418d06a2b0605e0c3d7494d23
+Author: Tevin Zhang <mail2tevin@gmail.com>
+Date:   Fri May 6 11:48:51 2016 +0800
+
+    Fix comment
+
+commit cd7d1bbe41066b6c1f19780f895901052150a575
+Merge: 081307d 621d398
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Mon Apr 25 11:32:37 2016 +0200
+
+    Merge pull request #350 from apriendeau/update-travis
+    
+    add go 1.6 to travis
+
+commit 621d3983b36da9f56b583c8e441435703bde361d
+Author: Austin Riendeau <austin@apriendeau.com>
+Date:   Mon Apr 18 11:14:45 2016 -0600
+
+    add go 1.6 to travis
+
+commit 081307d9bc1364753142d5962fc1d795c742baaf
+Merge: 2b673ab 754bfa9
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Sat Apr 16 13:51:37 2016 +0530
+
+    Merge pull request #348 from Sirupsen/semantic-match-func-name
+    
+    match name to semantic in `needsQuoting`
+
+commit 754bfa9e83e72e4c105ff3eac93eba63302565f4
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Sat Apr 16 13:48:56 2016 +0530
+
+    match name to semantic in `needsQuoting`
+    
+    fixes #196
+
+commit 2b673abc1e43d4c5a7c3b877c699371f3d61fa15
+Merge: 870c1fc 218981b
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Sat Apr 16 12:50:33 2016 +0530
+
+    Merge pull request #347 from Sirupsen/level-writer
+    
+    Add WriterLevel() function to the logger
+
+commit 218981bef407b4a4ed1c6e25a8f86efe39665764
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Sat Apr 16 12:46:11 2016 +0530
+
+    use constant InfoLevel instead of 255
+
+commit 1d1fd2d9ce6cca62f9904035ab7cfa56b76c08ef
+Author: Damien Radtke <damien@buildthis.net>
+Date:   Tue Mar 1 17:33:54 2016 -0600
+
+    Add WriterLevel() function to the logger
+    
+    This commit adds a variant of the logger's Writer() function that
+    accepts a log level. When the variant is used, any messages written to
+    the returned pipe will be written with the provided level. The original
+    Writer() function uses the logger's Print() method as it always has.
+
+commit 870c1fc2ca26d74fd7aca3dc89783834544be034
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Sat Apr 16 12:42:53 2016 +0530
+
+    add logstash hook to readme
+    
+    closes #339
+
+commit 881c9d3328e73ffab83a5c022d9dd3e26e9e1e98
+Merge: ed4b7af 12ea3a4
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Sat Apr 16 12:23:30 2016 +0530
+
+    Merge pull request #298 from dolmen/refactor-prefixFieldClashes
+    
+    formatter.go: simplify prefixFieldClashes(Fields)
+
+commit ed4b7af3d4b84dceffebc224cf0081f980ca0781
+Merge: 7e6f976 8a870e4
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Sat Apr 16 11:52:44 2016 +0530
+
+    Merge pull request #346 from e-max/logstash_formatter_race
+    
+    race in logstashformatter.go
+
+commit 8a870e4f7bc0236aa47ad9bd71a311537022b083
+Author: Max Lavrenov <max.lavrenov@gmail.com>
+Date:   Fri Apr 15 18:22:24 2016 +0300
+
+    fix race
+
+commit 7e6f9765803ea8356f45fd9b3c62305fb36cca51
+Merge: 889e5d7 5eb315c
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Apr 13 08:47:20 2016 -0400
+
+    Merge pull request #341 from doublefree/add_smologic_hook_readme
+    
+    Sumorus - SumoLogic Hook url added to readme
+
+commit 889e5d70198e84a44c49fbed3f65031c4bb5bc0f
+Merge: 4b6ea73 0d667bc
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Apr 13 08:47:11 2016 -0400
+
+    Merge pull request #344 from vlad-doru/vlad-doru-logrusus-readme
+    
+    Add a new InfluxDB Hook
+
+commit 0d667bc0c780290e275e837cc5d11eb7251162e3
+Author: Vlad-Doru Ion <vlad.doru@gmail.com>
+Date:   Mon Apr 4 10:58:58 2016 +0300
+
+    Added a new hook to the README.md
+    
+    Added the logrusus hook.
+
+commit dfb0e1d797624ee17fdf28e6fe1e6005659fe0c5
+Author: Shintaro Kaneko <kaneshin0120@gmail.com>
+Date:   Sat Apr 2 05:06:31 2016 +0000
+
+    terminal: Include appengine tag to compile for GAE
+
+commit 5eb315cfd58275c5c0a1f97f5d4c2445e1483d96
+Author: takuya.watabe <takuya.watabe@gmail.com>
+Date:   Thu Mar 31 00:20:06 2016 +0900
+
+    Sumorus - SumoLogic Hook url added to readme
+
+commit 4b6ea7319e214d98c938f12692336f7ca9348d6b
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Mar 17 14:11:10 2016 +0000
+
+    changelog: update for 0.10.0
+
+commit 897f3dddf1e774a8b7cfa529af7b596e01bbc6f0
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Mar 17 14:07:00 2016 +0000
+
+    Rename LogrusLogger interface to FieldLogger
+
+commit bb78923f279f9f4937589f4d3fd09198e8fe27b7
+Merge: e110284 1196d67
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Mar 17 10:01:39 2016 -0400
+
+    Merge pull request #320 from little-arhat/feature-logrus-interface
+    
+    Add LogrusLogger interface for Entry and Logger
+
+commit e1102848657b9bd9229c7080b69a4381f651e201
+Merge: 9ccfbde d5a509a
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Mar 17 10:01:08 2016 -0400
+
+    Merge pull request #325 from spicydog/patch-1
+    
+    Update README.md
+
+commit 9ccfbde280a9fbfa7be15891aa36eb1973ede43c
+Merge: 70d89df b81f34e
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Mar 17 09:56:47 2016 -0400
+
+    Merge pull request #335 from dim/master
+    
+    Avoid re-allocations
+
+commit 70d89df0fa2724559a0043664f457b588c5964b6
+Merge: a26f435 b8b6593
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Mar 17 09:55:16 2016 -0400
+
+    Merge pull request #336 from sohlich/master
+    
+    Hook for ElasticSearch.
+
+commit b8b6593e80c829b05047b9cb1673d91812d65eb2
+Author: Radomír Sohlich <sohlich@gmail.com>
+Date:   Wed Mar 16 20:34:53 2016 +0100
+
+    Hook for ElasticSearch.
+    
+    Added a link for ElasticSearch hook.
+
+commit b81f34e70ab64e25999fe1f51b752c8f2acd4928
+Author: Dimitrij Denissenko <dimitrij.denissenko@blacksquaremedia.com>
+Date:   Tue Mar 15 07:39:40 2016 +0000
+
+    Avoid re-allocations
+
+commit a26f43589d737684363ff856c5a0f9f24b946510
+Merge: 219c8cb ea350e0
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri Mar 11 15:57:46 2016 -0500
+
+    Merge pull request #333 from dragon3/add-typetalk-hook
+    
+    Add Typetalk hook
+
+commit ea350e02215ae7b141c660d738e15b3e522797f3
+Author: dragon3 <ryuzo.yamamoto@gmail.com>
+Date:   Wed Mar 9 23:13:41 2016 -0500
+
+    Add Typetalk hook
+
+commit 219c8cb75c258c552e999735be6df753ffc7afdc
+Merge: 74bde9e 6d7aacc
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Feb 24 16:10:30 2016 -0500
+
+    Merge pull request #330 from f2prateek/patch-1
+    
+    Fix Godoc link
+
+commit 6d7aacc2165692ced8efb305c9e84a25245e090d
+Author: Prateek Srivastava <f2prateek@gmail.com>
+Date:   Wed Feb 24 14:05:45 2016 -0700
+
+    Fix Godoc link
+    
+    Previous https://cloudup.com/cZnP3-jZ9O8
+
+commit 74bde9ea4c5b2c78995da8ed56d37e75644dc941
+Merge: 57cce1e 95190bb
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Feb 23 08:49:20 2016 -0500
+
+    Merge pull request #180 from yawn/testhook
+    
+    Added test hook
+
+commit 95190bb5ae0af6be6a911f807a33b291a7e9cdf4
+Author: Joern Barthel <joern.barthel@kreuzwerker.de>
+Date:   Fri Oct 9 16:07:29 2015 +0200
+
+    Added testing section to README.
+
+commit 0143a90f6e89a7a01f3386742b544a6fe5f9f66c
+Author: Joern Barthel <joern.barthel@kreuzwerker.de>
+Date:   Fri Oct 9 16:07:14 2015 +0200
+
+    Extended test.
+
+commit be4b44b80614e3301d854b88e4968b0d15c46b11
+Author: Joern Barthel <joern.barthel@kreuzwerker.de>
+Date:   Wed May 13 14:14:34 2015 +0200
+
+    Added test hook.
+
+commit 088ac1380dc4161565c4854359de7db63f21cfc1
+Author: Joern Barthel <joern.barthel@kreuzwerker.de>
+Date:   Wed May 13 14:12:36 2015 +0200
+
+    Expose all levels (for hooks).
+
+commit 57cce1ed6103dce7791881d3e69e55f90d986aa5
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Feb 18 19:38:25 2016 -0500
+
+    readme: fix kafka link
+
+commit 840e99181ee53d0596ae957218dc170d739511ea
+Merge: 70e056d 03ba213
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Feb 18 11:43:37 2016 -0500
+
+    Merge pull request #326 from alde/make-parselevel-case-insensitive
+    
+    Make ParseLevel case-insensitive
+
+commit 70e056d42b8fed7ec0be61094703f41c5a064f3a
+Merge: 3455d89 4ccde14
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Feb 18 11:43:21 2016 -0500
+
+    Merge pull request #327 from harshadptl/kafka_hook_link
+    
+    adding link for the kafka hook
+
+commit 4ccde140c35e5b6fed7af76e9e4e25b81e398f16
+Author: harshad <harshad0402@gmail.com>
+Date:   Wed Feb 17 13:07:32 2016 +0530
+
+    adding link for the kafka hook
+
+commit 03ba213b8a1ff6979efc110970ecb8594349b96f
+Author: Rickard Dybeck <rickard.dybeck@klarna.com>
+Date:   Tue Feb 16 16:27:38 2016 +0100
+
+    Make ParseLevel case-insensitive
+    
+    Coming from an environment where loglevels are always specified in
+    uppercase, having ParseLevel be case-insensitive is a nice to have.
+
+commit d5a509ac3f779ddcabf2977578f6b26aebd3b786
+Author: spicydog <spicydog@gmail.com>
+Date:   Tue Feb 16 13:41:25 2016 +1000
+
+    Update README.md
+    
+    Update set  log formatter command to "log.SetFormatter()" since "log.Formatter = new()" does not work.
+
+commit 3455d89ac9652295c85db2a98ea32f1d61c380bc
+Merge: be52937 6e0b3a3
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri Feb 12 06:24:02 2016 -0500
+
+    Merge pull request #323 from vladoatanasov/master
+    
+    Link to amqp hook added in readme
+
+commit 6e0b3a33975382da6fbca337de322c4db2a5078d
+Author: Vlado Atanasov <vlado.atanasov@gmail.com>
+Date:   Fri Feb 12 10:30:56 2016 +0000
+
+    Update README.md
+
+commit 2be7bf5c9c4d1b4524c672e79c820286e1252278
+Author: Vlado Atanasov <vlado.atanasov@gmail.com>
+Date:   Fri Feb 12 10:30:30 2016 +0000
+
+    Update README.md
+
+commit be52937128b38f1d99787bb476c789e2af1147f1
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Feb 2 21:14:36 2016 +0000
+
+    changelog: bump to 0.9.0
+
+commit 1196d67b47f1862ddf60010c685e066d1fe40c86
+Author: Roma Sokolov <sokolov.r.v@gmail.com>
+Date:   Mon Feb 1 16:55:14 2016 +0000
+
+    Add LogrusLogger interface for Entry and Logger
+    
+    This make it possible for client code to accept either Logger or Entry.
+    For example, utility function may accept logger object to inform fatal
+    errors and it is job of the calling code to provide either generic
+    top-level logger, or request-bound Entry created using .WithFields.
+    
+    (fixes #308)
+
+commit 433488c23f423b1208305d293d2b0bfbe5a4075c
+Merge: 92e7983 6094714
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Feb 2 09:30:34 2016 -0500
+
+    Merge pull request #315 from ronnylt/feature/race
+    
+    Sample to test race conditions
+
+commit 92e7983a9ea55e67b0dbbd4edee5f9a4c38b6089
+Merge: f7f79f7 255c37f
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Feb 2 09:29:02 2016 -0500
+
+    Merge pull request #317 from rogierlommers/master
+    
+    add link to logrus-redis-hook
+
+commit 255c37f4baa4c8c919fa01a89a0ed91a6e212768
+Author: Rogier Lommers <rogier@lommers.org>
+Date:   Tue Jan 26 21:01:36 2016 +0100
+
+    add link to logrus-redis-hook
+
+commit 609471461652c3ac7b9faac3bba2f14ec84b4782
+Author: Ronny López <ronnyherc@gmail.com>
+Date:   Sat Jan 23 10:54:36 2016 +0100
+
+    Run tests with -race
+
+commit f7f79f729e0fbe2fcc061db48a9ba0263f588252
+Merge: 446d1c1 7700add
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Mon Jan 18 19:00:32 2016 -0500
+
+    Merge pull request #314 from vend/logstash-immutable-event
+    
+    avoid modifying the entry by copying all fields and values
+
+commit 7700add08439b5c613f2ffe8ce2dcada40a0c176
+Author: Brad Brown <brad@vendhq.com>
+Date:   Mon Jan 18 17:25:58 2016 +1300
+
+    avoid modifying the entry by copying all fields and values
+
+commit 446d1c146faa8ed3f4218f056fcd165f6bcfda81
+Merge: 6a35758 fd860ab
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri Dec 4 09:14:43 2015 -0500
+
+    Merge pull request #302 from mttrs/fix-typo
+    
+    Fix typo
+
+commit 6a35758b8b4b93dbd9ffa78b605cc81bd5505f69
+Merge: cdaedc6 05f9567
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri Dec 4 09:14:34 2015 -0500
+
+    Merge pull request #303 from illicitonion/ttydetection
+    
+    Detect TTY based on stderr, not stdout
+
+commit 05f9567ba3659e78f02d071dd0c23600e0602c1e
+Author: Daniel Wagner-Hall <daniel@matrix.org>
+Date:   Thu Dec 3 12:58:31 2015 +0000
+
+    Detect TTY based on stderr, not stdout
+    
+    We actually write to stderr by default, so:
+    
+    bin >/dev/null
+    
+    currently weirdly prints non-colorized output, whereas:
+    
+    bin 2>log
+    
+    weirdly prints colorized output to a file.
+
+commit fd860ab61d4b6a5fdcecfd30114099bcfa29b801
+Author: mitsuteru sawa <mitsuteru.s@gmail.com>
+Date:   Mon Nov 30 16:22:28 2015 +0900
+
+    Fix typo
+    
+    “ should be ".
+
+commit cdaedc68f2894175ac2b3221869685602c759e71
+Merge: a22723f 42c9c25
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Nov 23 03:15:15 2015 -0500
+
+    Merge pull request #299 from gchpaco/master
+    
+    Support `WithError` on `Logger`.
+
+commit 42c9c252631976f332cb1683d76147bd8cde22bd
+Author: Graham Hughes <ghughes@meteor.com>
+Date:   Sat Nov 21 22:59:38 2015 -0800
+
+    Support `WithError` on `Logger`.
+    
+    Should address #277.
+
+commit 12ea3a4f8ea6f137e300bf1c3aa2a63367809ae4
+Author: Olivier Mengué <dolmen@cpan.org>
+Date:   Sat Nov 21 17:51:52 2015 +0100
+
+    formatter.go: simplify prefixFieldClashes(Fields)
+
+commit a22723f16efea2e89b7bd67d10ed077c47c14eb4
+Merge: ba3ef66 8cdd4b3
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Nov 17 10:41:36 2015 +0100
+
+    Merge pull request #289 from 0xE0F/crosscompiling-solaris
+    
+    Cross compiling for Solaris-like OS
+
+commit ba3ef6695126a2d33fd0445ab8e0a1dc3f65be3f
+Merge: eb61880 8b27a24
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Nov 16 17:45:18 2015 +0100
+
+    Merge pull request #292 from xujinzheng/master
+    
+    fix tools of logrus_mate link address
+
+commit 8b27a242e454ad7f1c524cdaa9be97909393de96
+Author: Zeal <xujinzheng@gmail.com>
+Date:   Mon Nov 16 18:22:07 2015 +0800
+
+    fix logrus_mate link address
+
+commit eb61880d0001eb84ea79a0911e78f17f838d3577
+Merge: ac49661 eb1e362
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Nov 16 08:27:26 2015 +0100
+
+    Merge pull request #282 from x-cray/master
+    
+    Add ref to third-party prefixed log formatter
+
+commit ac496616c902eaa9c2417035929cb45112df38f5
+Merge: c734b55 e958fd6
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Nov 16 08:23:49 2015 +0100
+
+    Merge pull request #275 from xujinzheng/master
+    
+    add tools section for logrus mate
+
+commit c734b5594ae70d176eb198bc3e368439d9aeeb42
+Merge: 6f383a9 6815eb0
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Nov 16 08:23:33 2015 +0100
+
+    Merge pull request #285 from GJRTimmer/patch-1
+    
+    Added Build Rule
+
+commit 6f383a9b2998dd6f401704269c3e6e192f6175ad
+Merge: fe6f2b0 ac099ab
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Nov 9 12:36:32 2015 +0100
+
+    Merge pull request #290 from eyberg/master
+    
+    adding deferpanic hook in readme
+
+commit ac099ab45a7160b8ccc259ce1894ce9a37c286a4
+Author: Ian Eyberg <ian@deferpanic.com>
+Date:   Fri Nov 6 14:47:10 2015 -0800
+
+    adding deferpanic hook in readme
+
+commit 8cdd4b39f502d10358d92586e020d3535f257ec9
+Author: 0xe0f <po4ta.duka@gmail.com>
+Date:   Tue Nov 3 12:21:35 2015 +0300
+
+    Added implementation of function "IsTerminal" for Solaris
+
+commit eb1e36217e34b1f88c907e0877d96fbed53542bf
+Author: Denis Parchenko <denis.parchenko@gmail.com>
+Date:   Tue Oct 27 01:53:47 2015 +0200
+
+    Add ref to third-party prefixed log formatter
+
+commit fe6f2b03125e4fcafb21406381010e363a072c80
+Merge: 62f85a2 2308b7e
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Oct 27 08:58:02 2015 -0400
+
+    Merge pull request #286 from dorajistyle/master
+    
+    Add octokit hook.
+
+commit 2308b7ee636ea426da89660b8c608fbf2885b0c1
+Author: JoongSeob Vito Kim <dorajissanai@nate.com>
+Date:   Tue Oct 27 18:58:00 2015 +0900
+
+    Add octokit hook.
+    
+    Add octokit(github) hook.
+
+commit 6815eb0dbd61194ed6b94fa16ba112e44e10f159
+Author: Gert-Jan Timmer <gjr.timmer@gmail.com>
+Date:   Tue Oct 27 10:18:45 2015 +0100
+
+    Added Build Rule
+    
+    Add build rule, to only build on Linux platform, reason for adding this: This allows the usage of the logrus package within a Windows based project. Current logrus project fails to import due to the fact the syslog is missing on Windows.
+
+commit 62f85a2e398fb4cae34ecd1db528422ede248d3c
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Oct 22 17:52:25 2015 -0400
+
+    changelog: remove bugsnag
+
+commit 8013927d1b6f2d4ab9f6fa55c33425d89e412eb8
+Merge: 4643a7e faac3ea
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Oct 22 17:51:46 2015 -0400
+
+    Merge pull request #280 from csfrancis/remove_bugsnag
+    
+    Remove Bugsnag
+
+commit faac3ea96978eb2ce8f1196fde1fcae0e9570f1b
+Author: Scott Francis <scott.francis@shopify.com>
+Date:   Thu Oct 22 20:20:45 2015 +0000
+
+    Remove Bugsnag
+
+commit e958fd6f37d45df3a0cc5532a41cbd8b2888c7f4
+Author: Zeal <xujinzheng@gmail.com>
+Date:   Mon Oct 19 14:19:45 2015 +0800
+
+    add tools section for logrus mate
+
+commit 4643a7efec9b8fd7548882e7b30095711343100f
+Merge: df78bc7 68064ae
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Oct 12 17:08:13 2015 -0400
+
+    Merge pull request #271 from Abramovic/master
+    
+    Include InfluxDB hook
+
+commit 68064ae59217400067608b029be1c8f44a379887
+Author: Abramovic <nick.abramovic@gmail.com>
+Date:   Mon Oct 12 10:41:37 2015 -0700
+
+    include InfluxDB hook
+
+commit df78bc75a33fd9b582230e052be33dff861f3a4a
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri Oct 9 17:37:01 2015 +0000
+
+    changelog: move papertrail
+
+commit 1855cb72bbc1efd88052d9cff747a95f1e4e6085
+Merge: 23521f1 3240988
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri Oct 9 13:35:41 2015 -0400
+
+    Merge pull request #270 from polds/master
+    
+    Split out Papertrail hook to its own repo
+
+commit 32409889092423f2bff98dc7863457b787a9d1bd
+Author: Peter Olds <polds@kyanicorp.com>
+Date:   Fri Oct 9 10:28:56 2015 -0600
+
+    Split out Papertrail hook to its own repo
+    
+    Signed-off-by: Peter Olds <polds@kyanicorp.com>
+
+commit 23521f1364a267387df2b99234134003e0a4486d
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Oct 7 14:14:16 2015 +0000
+
+    changelog: moved sentry
+
+commit b2fcfe237c97ae248bad291a1e91f13f7b429e50
+Merge: b673bf3 ba64a98
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Oct 7 10:13:26 2015 -0400
+
+    Merge pull request #269 from evalphobia/feature/move-sentry-hook
+    
+    Move sentry hook to external repository
+
+commit ba64a98b3b4c8b0cc7f085c0d481b89b925e6254
+Author: evalphobia <evalphobia@gmail.com>
+Date:   Wed Oct 7 12:59:33 2015 +0900
+
+    Move sentry hook to external repository
+
+commit b673bf363d3658506891150a6dca42059572d1b0
+Merge: 8ae9297 f811ea4
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Oct 6 16:33:52 2015 -0400
+
+    Merge pull request #268 from apriendeau/patch-3
+    
+    hook.go matches their gopkg.in/gemnasium/logrus-airbrake-hook.v2 now
+
+commit f811ea43df7b509bfafb8d708a07257a307bfe83
+Author: Austin Riendeau <austin@apriendeau.com>
+Date:   Tue Oct 6 14:24:51 2015 -0600
+
+    hook.go matches their gopkg.in/gemnasium/logrus-airbrake-hook.v2 now
+
+commit 8ae9297f36c098423ad6bcc76ff995171f52de3f
+Merge: d7f2354 457a009
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Oct 6 16:10:30 2015 -0400
+
+    Merge pull request #266 from apriendeau/patch-1
+    
+    Fixes breaking change with removing airbrake.
+
+commit 457a009ed7eac573af71d87c09314d1bb982a17c
+Author: Austin Riendeau <austin@apriendeau.com>
+Date:   Tue Oct 6 14:01:18 2015 -0600
+
+    Fixes breaking change with removing airbrake.
+
+commit d7f23545ad48f39960e360e36b5d3b58cc6ecb1c
+Merge: 46358df 1d8ceff
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Oct 6 14:48:13 2015 -0400
+
+    Merge pull request #264 from gemnasium/move-graylog
+    
+    Move graylog to dedicated repo
+
+commit 1d8ceff9b29c600f413214c6d35238a3678a913f
+Author: Philippe Lafoucrière <philippe.lafoucriere@tech-angels.com>
+Date:   Tue Oct 6 14:43:55 2015 -0400
+
+    Move graylog to dedicated repo
+    
+    The new repo uses gopkg.in for versioning.
+    This is the continuation of logrus moving hooks to dedicated repos.
+    
+    The old repo
+    https://github.com/gemnasium/logrus-hooks/tree/master/graylog
+    is deprecated, as we don't want to share things there too (import
+    airbrake while I just want graylog). It will be removed in a few
+    months.
+
+commit 46358df2442a21333613e0036fe7078e9a90ea63
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Oct 6 18:39:39 2015 +0000
+
+    changelog: add airbrake note
+
+commit aeb0c6c39e7d8120f2049d238704a62d38d6c8d8
+Merge: fe72f59 86739cf
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Oct 6 14:38:26 2015 -0400
+
+    Merge pull request #261 from gemnasium/move-airbrake
+    
+    Move airbrake
+
+commit 86739cfcf477576476a5cd52c4dc0721a429e3dc
+Author: Philippe Lafoucrière <philippe.lafoucriere@tech-angels.com>
+Date:   Tue Oct 6 14:33:31 2015 -0400
+
+    Remove leftover
+
+commit 297ec6fcaa2e9059d7af1a0495734dac27ec9bac
+Author: Philippe Lafoucrière <philippe.lafoucriere@tech-angels.com>
+Date:   Tue Oct 6 14:28:31 2015 -0400
+
+    Move airbrake to dedicated repo(s)
+    
+    The current implementation is using an old implementation of the
+    Airbrake v2 api. Airbrake has release v2 since, but this package is
+    necessary for in-house solutions like errbit.
+    The number of errbit users don't justify to continue pushing this
+    version as the official.
+    That's why the official hook is now using gobrake (the official
+    package), and the one coming from logrus is now named "legacy".
+
+commit fe72f59ae7a90258fd2be14419e4d066dc0840e2
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Oct 5 12:05:33 2015 +0000
+
+    travis: remove support for 1.2
+
+commit 1b01a2b2fc1bcbce7ee39e9bb2c65d45a4005698
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Oct 5 12:05:14 2015 +0000
+
+    changelog: add for 0.9.0
+
+commit 8445ae196b94cbfef15031096e613dd419e2a004
+Merge: 5a15866 4197a1b
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Oct 5 07:46:03 2015 -0400
+
+    Merge pull request #259 from Sirupsen/revert-254-master
+    
+    Revert "TextMarshaler and TextUnmarshaler implementation for Level"
+
+commit 4197a1bbd545e17269f927632ecf30173a005f58
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Oct 5 07:45:58 2015 -0400
+
+    Revert "TextMarshaler and TextUnmarshaler implementation for Level"
+
+commit 5a15866bbaa1902b0e7e36dc52e5242044aa9ab1
+Merge: c69e603 277d0cb
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Oct 5 07:45:56 2015 -0400
+
+    Merge pull request #254 from fromYukki/master
+    
+    TextMarshaler and TextUnmarshaler implementation for Level
+
+commit c69e603431710e0058f64e2c154d4804bd9300ca
+Merge: 05fe8fb 9ca7d9f
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Oct 5 07:44:10 2015 -0400
+
+    Merge pull request #200 from freeformz/no_msg
+    
+    Don't emit a msg if there is none to emit
+
+commit 05fe8fb917022889a954f1b9caa8825a45a49225
+Merge: a6a8245 005f65e
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Oct 5 07:35:44 2015 -0400
+
+    Merge pull request #256 from flowlo/patch-1
+    
+    Improve references to Logstash formatter
+
+commit a6a8245fd7e79c0bdc9afa9786d0b4cb3c53184f
+Merge: 418b41d 4805f72
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Oct 5 07:35:05 2015 -0400
+
+    Merge pull request #251 from devopstaku/syslog_hook_doc
+    
+    Add description about how to connect to local syslog with syslog hook
+
+commit 005f65e9b5169e70a4dd249a45d18553d973933f
+Author: Lorenz Leutgeb <lorenz.leutgeb@gmail.com>
+Date:   Thu Sep 17 19:37:51 2015 +0200
+
+    Improve references to Logstash formatter
+
+commit 277d0cb562b95f0ab49c088f38176c2f58c6f692
+Author: Maksim Naumov <fromyukki@gmail.com>
+Date:   Sat Sep 12 22:41:06 2015 +0200
+
+    `TextMarshaler` and `TextUnmarshaler` implementation for `Level`
+
+commit 4805f72c39f40d1889f472a50f973b7e21480d1d
+Author: devopstaku <devopstaku@gmail.com>
+Date:   Wed Sep 9 21:55:50 2015 +0800
+
+    Add description about how to connect to local syslog with syslog hook
+
+commit 9ca7d9fefe4ee54e2d6f53ea26b84e5d5bc694f0
+Author: Edward Muller <edwardam@interlix.com>
+Date:   Fri Jun 19 17:20:59 2015 -0700
+
+    Don't emit a msg if there is none to emit
+
+commit 418b41d23a1bf978c06faea5313ba194650ac088
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Sep 8 20:46:18 2015 +0000
+
+    v0.8.7
+
+commit 82c8de1af23b25ba5a468d801f29077f4f483bce
+Merge: 66db2df a2f80bd
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Mon Sep 7 21:03:30 2015 -0400
+
+    Merge pull request #247 from Sirupsen/revert-api-change
+    
+    Revert api change
+
+commit 66db2df1efb91b14a4d573679b8edd10e8da6857
+Merge: c639bed 4b9a646
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Mon Sep 7 20:52:27 2015 -0400
+
+    Merge pull request #245 from wallclockbuilder/documentation
+    
+    Godoc Documentation
+
+commit a2f80bd9c0ccfd63d3826dc68fcafa094833132e
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Mon Sep 7 20:49:55 2015 -0400
+
+    add compile checks for StdLogger interface
+
+commit 38c9fd2510fa896f7144013fadf2702fa1226f80
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Mon Sep 7 20:47:46 2015 -0400
+
+    Revert "Implement casting of *Entry to error."
+    
+    This reverts commit 756db3cd2dd0d5a461aeefd25cbe5223d4f06d9f.
+
+commit 4b9a6460396c33846bd7ecc296e39e984bf0f363
+Author: Mawuli Adzoe <mawuli.kofi.mawuli@gmail.com>
+Date:   Mon Sep 7 09:10:36 2015 +0000
+
+    Add sample code
+
+commit 107695ee5077e8328d4cab59d87b2c8fd073eca7
+Author: Mawuli Adzoe <mawuli.kofi.mawuli@gmail.com>
+Date:   Mon Sep 7 09:10:15 2015 +0000
+
+    Add godoc summary
+
+commit c639bedcac481aca1023de7f5148ba6ad477b05e
+Merge: b17e718 756db3c
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Sun Sep 6 01:34:49 2015 -0400
+
+    Merge pull request #179 from yawn/with-error
+    
+    Added WithError(err)
+
+commit b17e7183259cc73db8b8fb9e534bfc153f53cb12
+Merge: 84b968c 8c8be89
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri Sep 4 09:54:25 2015 -0400
+
+    Merge pull request #242 from ineiti/patch-1
+    
+    Update README.md
+
+commit 8c8be895014ee930b5396b850bb8c0fb9954cb1f
+Author: Linus Gasser <ineiti@linusetviviane.ch>
+Date:   Fri Sep 4 12:02:14 2015 +0200
+
+    Update README.md
+    
+    Typo it seems - except if I still didn't understand go...
+
+commit 84b968cb9f82d727044973f8255489bbe15e9948
+Merge: 44512f0 c2efb40
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Aug 26 22:14:34 2015 -0400
+
+    Merge pull request #238 from weekface/master
+    
+    Include mgorus(a mongodb hook) in list of available hooks
+
+commit c2efb403122c6de26c2b5d7c7f30696d21c04c83
+Author: weekface <weekface@gmail.com>
+Date:   Thu Aug 27 09:54:11 2015 +0800
+
+    Add hook for logging to mongodb
+
+commit 44512f0d08f7f81a75f5b04a2cb6d81ed25431ca
+Merge: 27b713c 2612e84
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sun Aug 23 13:59:52 2015 -0400
+
+    Merge pull request #237 from ryanfaerman/patch-1
+    
+    Fixes typo in WithField documentation
+
+commit 2612e8496d2c702bdb7ca7228124e3cdbd7c5ab1
+Author: Ryan Faerman <ryan@faerman.net>
+Date:   Thu Aug 20 00:07:28 2015 -0400
+
+    Fixes typo in WithField documentation
+
+commit 27b713cfd2742876645e3692a488c5e3fd65361d
+Merge: 9c060de 1d47e5e
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Aug 18 20:11:02 2015 -0400
+
+    Merge pull request #235 from diegobernardes/patch-1
+    
+    Update README.md
+
+commit 1d47e5ed0ea7bdd428321743788aaa947e2143fc
+Author: Diego Bernardes de Sousa Pinto <diegobernardes@users.noreply.github.com>
+Date:   Tue Aug 18 15:15:02 2015 -0300
+
+    Update README.md
+    
+    Just a small fix.
+
+commit 9c060de643590dae45da9d7c26276463bfc46fa0
+Merge: eb98773 8280b8b
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Sat Aug 8 03:20:48 2015 -0400
+
+    Merge pull request #226 from marcosnils/entry_race
+    
+    Fix race condition in entry log method
+
+commit eb98773bdee0881a2fc6874c2e10681bf083108b
+Merge: 8bca266 d5580f0
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Sat Aug 8 03:06:26 2015 -0400
+
+    Merge pull request #228 from hvnsweeting/patch-1
+    
+    Update logger.go
+
+commit 8280b8b9a6e01f1b48ae2079f8d5114cd3b93592
+Author: Marcos Lilljedahl <marcosnils@gmail.com>
+Date:   Fri Aug 7 18:29:20 2015 -0300
+
+    Add comment to log function
+    
+    Signed-off-by: Marcos Lilljedahl <marcosnils@gmail.com>
+
+commit d5580f082a4956cf2b89b83132ed77d326c981de
+Author: Viet Hung Nguyen <hvnsweeting@gmail.com>
+Date:   Fri Aug 7 15:56:08 2015 +0700
+
+    Update logger.go
+
+commit 35f12fb760875958f2a8d2d3520b8e91fdc4e143
+Author: Marcos Lilljedahl <marcosnils@gmail.com>
+Date:   Thu Aug 6 21:19:22 2015 -0300
+
+    Fix panic return type
+    
+    Signed-off-by: Marcos Lilljedahl <marcosnils@gmail.com>
+
+commit 396f8eefaa6f899b05717791043b2b02ba768bd5
+Author: Marcos Lilljedahl <marcosnils@gmail.com>
+Date:   Thu Aug 6 21:00:57 2015 -0300
+
+    Make log method receive a copy of Entry structure to avoid race
+    conditions
+    
+    Fixes #216
+    
+    Signed-off-by: Marcos Lilljedahl <marcosnils@gmail.com>
+
+commit 8bca2664072173a3c71db4c28ca8d304079b1787
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Jul 28 08:10:54 2015 -0400
+
+    changelog: update with raven change
+
+commit 5701be89e7d3cdcbc48504241b9c66ef085f759d
+Merge: 11538ee 1b73323
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Jul 28 08:09:19 2015 -0400
+
+    Merge pull request #215 from underarmour/sentry-hook-with-client
+    
+    Allow sentry hook to be created using an initialized raven client
+
+commit 11538ee6888f72d4ab44a1aeba06b9bc4cb134a1
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Jul 23 21:49:03 2015 -0400
+
+    changelog: reformat for proper markdown
+
+commit aa3ad346e42c2150c4d71f3b15dcf3d6041d9bef
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Jul 23 21:45:57 2015 -0400
+
+    Revert "Merge pull request #208 from Arkan/master"
+    
+    This reverts commit 7eac5879a50743ef4bd83fae92cf9a97c2d70f45, reversing
+    changes made to c79ccaf8c2b6e7361c430b45aae6891fca8ff729.
+
+commit 3cb248e9df77413d58a6330dde84236d04c197d5
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Jul 22 11:29:20 2015 -0400
+
+    changelog: add 218
+
+commit 86d90b159329f2bc2052bf76ae3309c486daeba3
+Merge: 07d998d a8127fd
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Jul 22 11:27:57 2015 -0400
+
+    Merge pull request #218 from pengzhai/master
+    
+    Fix data race issue in TextFormatter. Fix for https://github.com/Siru…
+
+commit a8127fd48517602b678dbdbef16351b4cf9708b9
+Author: Peng Zhai <pengzhai@uber.com>
+Date:   Mon Jul 20 10:43:12 2015 -0700
+
+    Change printColored to use timestampFormat.
+
+commit 570db1b0b9f51afe7da19539a75fd2c5232edf46
+Author: Peng Zhai <pengzhai@uber.com>
+Date:   Thu Jul 16 21:02:46 2015 -0400
+
+    Fix data race issue in TextFormatter. Fix for https://github.com/Sirupsen/logrus/issues/217.
+
+commit 1b73323cd0bf0e669ad602b8b855629277f3a2d5
+Author: Allan Glen <aglen@underarmour.com>
+Date:   Thu Jul 9 10:05:47 2015 -0600
+
+    Allow sentry hook to be created using an initialized raven client
+
+commit 07d998d174c4e2dc90e2f1989a20724220bca1ff
+Merge: cd321ca afe474b
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Jul 7 14:07:35 2015 -0400
+
+    Merge pull request #213 from awonak/sentry-tags
+    
+    Sentry tags
+
+commit afe474b84f0d7f6a2878b66be93e46155c40d2e4
+Author: Adam Wonak <adam.wonak@gmail.com>
+Date:   Tue Jul 7 11:52:22 2015 -0500
+
+    updated readme with usage example
+
+commit 8ce3556d31e46a7846042f1750d5644137f8e97d
+Author: Adam Wonak <adam.wonak@gmail.com>
+Date:   Tue Jul 7 11:41:45 2015 -0500
+
+    Added a new SentryHook initialization func for setting tags.
+
+commit cd321ca94de831148a41ea220fb3db7db88d45b3
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Jul 7 05:31:24 2015 -0400
+
+    version: bump to 0.8.3
+
+commit e815b551446af38f77587b33848a1b55714441c9
+Merge: b9685ff 62bd221
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Jul 7 05:30:21 2015 -0400
+
+    Merge pull request #209 from pdf/print_struct_keys
+    
+    Print struct keys for struct log fields
+
+commit b9685ff27b162e91a0911a8f6222a45213603960
+Merge: 7eac587 9846c73
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Jul 7 05:30:07 2015 -0400
+
+    Merge pull request #212 from evalphobia/master
+    
+     Include fluentd in list of available hooks
+
+commit 7eac5879a50743ef4bd83fae92cf9a97c2d70f45
+Merge: c79ccaf 0be4ee0
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Jul 7 05:29:58 2015 -0400
+
+    Merge pull request #208 from Arkan/master
+    
+    Fix Entry log level
+
+commit 9846c73426b8633e544f99455e10729a39f0db53
+Author: evalphobia <evalphobia@gmail.com>
+Date:   Tue Jul 7 12:54:35 2015 +0900
+
+     Include fluentd in list of available hooks
+
+commit 0be4ee004c3823c06f4d4386ca136c82ec1aa69b
+Author: Arkan <florian.bertholin@gmail.com>
+Date:   Mon Jul 6 22:27:39 2015 +0200
+
+    Fix Entry log level
+
+commit c79ccaf8c2b6e7361c430b45aae6891fca8ff729
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Jul 6 11:44:55 2015 -0400
+
+    changelog: add BSD note
+
+commit d2045717c6684fe4b3796b7d56ecede30a82e5fc
+Merge: ab7e46e 8a5c13c
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Jul 6 11:44:22 2015 -0400
+
+    Merge pull request #203 from cgag/master
+    
+    Add support for DragonflyBSD and NetBSD.
+
+commit 62bd221be1b045c7e530a8addc66f9f258b1c814
+Author: Peter Fern <github@obfusc8.org>
+Date:   Sun Jul 5 17:06:52 2015 +1000
+
+    Print struct keys for struct log fields
+    
+    Can be useful for debugging, saves a lot of referring to source code
+
+commit ab7e46ea22bd379e660230844f96d20f1dabc21a
+Merge: b34dae6 3b1ecc5
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Jun 30 22:57:07 2015 -0400
+
+    Merge pull request #206 from moul/patch-1
+    
+    fix typo
+
+commit 3b1ecc5fdd9f75da2afcaa61a03ed03e68736e34
+Author: Manfred Touron <m@42.am>
+Date:   Tue Jun 30 23:20:00 2015 +0200
+
+    fix typo
+
+commit b34dae6f7a63515a593f4b2291d0424c59678830
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Jun 30 11:11:41 2015 -0400
+
+    changelog: add entries for unreleased
+
+commit cddce4b0adebb7d0d29bde4755e0508760a5c1b3
+Merge: 93a1736 e35e0e0
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Jun 30 11:10:09 2015 -0400
+
+    Merge pull request #204 from noxiouz/speedup_textformatter
+    
+    [TextFormatter] Speed up (~40%). Fprintf is changed to buffer.Write*
+
+commit e35e0e00b8bd5e41e24c22076402cede55bef1ac
+Author: Anton Tiurin <noxiouz@yandex.ru>
+Date:   Sat Jun 27 17:09:22 2015 +0300
+
+    [TextFormatter] Speed up. Fprintf is changed to buffer.Write*
+    
+    As Fprintf is slower than buffer.WriteString, it's replaced
+    to faster call.
+    
+    Signed-off-by: Anton Tiurin <noxiouz@yandex.ru>
+
+commit 8a5c13cf786d75da71fd9d85a108dbb07be7b3d8
+Author: Curtis Gagliardi <curtis@curtis.io>
+Date:   Fri Jun 26 12:27:29 2015 -0700
+
+    Add support for DragonflyBSD and NetBSD.
+    
+    This merges all the bsd (including darwin) support into terminal_bsd.go
+    
+    Cross-compiling works for all of them in that they all compile, but I've only
+    actually tested the binary on dragonflybsd.  I don't see why this wouldn't
+    work on the others since I don't think they'd compile if they didn't
+    support TIOCGETA and Termios, but just a heads up.
+
+commit 93a1736895ca25a01a739e0394bf7f672299a27d
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri Jun 26 11:42:49 2015 -0400
+
+    hooks: expose LevelHooks type
+
+commit d3e4ea403263d5e349c43ba8309e81f820325393
+Merge: 2a0a9a1 4ab59a9
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Jun 25 08:38:08 2015 -0700
+
+    Merge pull request #201 from tail/add-sentry-link
+    
+    Added link to Sentry hook.
+
+commit 4ab59a94fa789cf7023e45b67bede00e939ce1f5
+Author: Jason Yan <tailofthesun@gmail.com>
+Date:   Wed Jun 24 19:37:01 2015 -0700
+
+    Added link to Sentry hook.
+
+commit 2a0a9a12ae2892ccfa9ab59c1222e9dcd29f9367
+Merge: 21d4508 7eed28e
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri Jun 19 21:53:44 2015 -0400
+
+    Merge pull request #199 from freeformz/rollrus
+    
+    Link to the rollbar notification hook that we use.
+
+commit 7eed28eea2a839ab0e8f5adc30c53de93524c746
+Author: Edward Muller <edwardam@interlix.com>
+Date:   Fri Jun 19 16:04:35 2015 -0700
+
+    Link to the rollbar notification hook that we use.
+
+commit 21d4508646ae56d79244bd9046c1df63a5fa8c37
+Merge: e3eccfa dc834b8
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Jun 10 05:38:35 2015 -0400
+
+    Merge pull request #194 from zbindenren/master
+    
+    add link to mail hook
+
+commit dc834b8b47c7be9f7a31fdbb7a7cef44c14bc01d
+Author: Rene Zbinden <rene.zbinden@postfinance.ch>
+Date:   Wed Jun 10 11:09:59 2015 +0200
+
+    add link to mail hook
+
+commit e3eccfaeb58b95c9ce22aea6867562f07a0d68c7
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Jun 8 19:55:33 2015 -0400
+
+    readme: fix typo in honeybadger
+
+commit c8ed7a5eae8c6081fd38f38ebd375b3f75b1119d
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Jun 8 19:54:53 2015 -0400
+
+    readme: add @agonzalezro honeybadger hook to readme
+
+commit 0f2a4955b11372eec5a4b95d907eaf8379b835d0
+Merge: c370730 245d897
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Jun 2 19:14:05 2015 -0400
+
+    Merge pull request #191 from rifflock/include-lfshook
+    
+    Include lfshook in list of available hooks
+
+commit 245d8971d1a91cb74906a3ab0648f4774ff287b3
+Author: rifflock <michael.riffle@gmail.com>
+Date:   Tue Jun 2 15:36:57 2015 -0700
+
+    Include lfshook in list of available hooks
+
+commit c370730052778915afc0ac66ad0b1f2a5cc2b948
+Merge: 6ba91e2 e86319a
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Jun 2 08:34:42 2015 -0400
+
+    Merge pull request #190 from rebill/master
+    
+    fix SetFormatter error
+
+commit e86319aa1d796354b7e376adcd99a39b10e37cd3
+Author: Rebill.Ruan <rebill01.ruan@vipshop.com>
+Date:   Tue Jun 2 15:33:32 2015 +0800
+
+    fix  error
+
+commit 6ba91e24c498b49d0363c723e9e2ab2b5b8fd012
+Merge: 98a1428 05d18c7
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed May 27 09:39:09 2015 -0400
+
+    Merge pull request #189 from jondot/patch-1
+    
+    logrus_syslog / syslog - example should now be valid
+
+commit 05d18c70e228cb152513c0b7387c629e1e3c93f5
+Author: Dotan J. Nahum <jondotan@gmail.com>
+Date:   Wed May 27 14:29:11 2015 +0300
+
+    logrus_syslog / syslog - example should now be valid
+
+commit 98a1428efc3d732f9e377b50c8e2113e070896cf
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue May 26 20:10:50 2015 -0400
+
+    version: 0.8.2
+
+commit b8e090955ad2334e0582b2593f950d5a988227b2
+Merge: 2785742 fdae7dd
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue May 26 20:09:48 2015 -0400
+
+    Merge pull request #188 from mapuri/master
+    
+    Fix Fatal*() functions of `logger` to match the behavior of Fatal*() functions of `entry`
+
+commit fdae7ddaf512415df63fb429b97545928641c657
+Author: Madhav Puri <madhav.puri@gmail.com>
+Date:   Tue May 26 16:42:49 2015 -0700
+
+    Fix Fatal*() function of logger to match the behavior of Fatal*() functions of entry
+    
+    Signed-off-by: Madhav Puri <madhav.puri@gmail.com>
+
+commit 27857424f98d2f794934528c0737c4552f64cd0e
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue May 26 18:46:05 2015 -0400
+
+    version: bump to 0.8.1
+
+commit 488629fea7fbc6a0dabf03aa8e67eb3fc0298d8f
+Merge: 386ccca c0ea789
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue May 26 17:15:44 2015 -0400
+
+    Merge pull request #187 from mapuri/master
+    
+    Fix Fatalf() and Fataln() to exit irrespective of log level
+
+commit c0ea7891cd0ad5d011f7ae073335cec8e8579b4a
+Author: Madhav Puri <madhav.puri@gmail.com>
+Date:   Tue May 26 14:00:11 2015 -0700
+
+    Fix Fatalf() and Fatalln() to exit irrespective of log level
+    
+    Signed-off-by: Madhav Puri <madhav.puri@gmail.com>
+
+commit 386ccca031649304b1b3e6db057e8cecdaabe760
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue May 26 09:04:23 2015 -0400
+
+    version: bump to 0.8
+
+commit f1addc29722ba9f7651bc42b4198d0944b66e7c4
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue May 26 09:02:13 2015 -0400
+
+    formatter/json: fix possible race
+
+commit 092eda23b5d2ccf95fe7dfc70354493eb273487a
+Merge: 81e2611 5939a6c
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri May 22 10:03:26 2015 -0400
+
+    Merge pull request #183 from evalphobia/feature/sentry-http-request
+    
+    Added special field for *http.Request to Sentry hook
+
+commit 5939a6cbf905f491a88f502e08f01bc35b0a90f0
+Author: evalphobia <evalphobia@gmail.com>
+Date:   Fri May 22 21:14:51 2015 +0900
+
+    Added special field for *http.Request to Sentry hook
+
+commit 81e2611f37acccd8cb5e4e1a5a4a5f6c9c7f4537
+Merge: 52919f1 099b1bf
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu May 21 10:47:48 2015 -0400
+
+    Merge pull request #168 from squirkle/master
+    
+    Added Raygun hook.
+
+commit 099b1bffe00aba347076c7f06dcc91210e5e9b15
+Author: Philip Allen <philip.allen@searchdiscovery.com>
+Date:   Thu May 21 10:28:14 2015 -0400
+
+    removing raygun hook from hooks dir, adding reference in hooks table of main README.md
+
+commit 25bb6a109943e2fea71ec3e4ccd0970c703946aa
+Merge: d97bbff 52919f1
+Author: Philip Allen <philip.allen@searchdiscovery.com>
+Date:   Thu May 21 10:25:46 2015 -0400
+
+    Merge branch 'master' of https://github.com/Sirupsen/logrus
+
+commit 756db3cd2dd0d5a461aeefd25cbe5223d4f06d9f
+Author: Joern Barthel <joern.barthel@kreuzwerker.de>
+Date:   Tue May 19 20:20:59 2015 +0200
+
+    Implement casting of *Entry to error.
+
+commit e3e5de11c4ffc79a6da0d7c6c4f73f0bff74a077
+Author: Joern Barthel <joern.barthel@kreuzwerker.de>
+Date:   Tue May 19 19:50:55 2015 +0200
+
+    Implement WithError(err) in exported, fixed doco.
+
+commit c24d0555d76f039b3dec1c3397979ba373647ec4
+Author: Joern Barthel <joern.barthel@kreuzwerker.de>
+Date:   Wed May 13 13:35:03 2015 +0200
+
+    Added WithError(err).
+
+commit 52919f182f9c314f8a38c5afe96506f73d02b4b2
+Merge: 48c21bc f1d275b
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue May 12 12:38:02 2015 -0500
+
+    Merge pull request #178 from mattbaird/patch-1
+    
+    proper use of TextFormatter in documentation
+
+commit f1d275b80025eebbc483ae512be3b91b8aef1bf6
+Author: Matthew Baird <mattbaird@gmail.com>
+Date:   Tue May 12 09:27:20 2015 -0700
+
+    proper use of TextFormatter in documentation
+
+commit 48c21bc05cd06b5712e87ab253b014a0b1f33d32
+Merge: aaf92c9 29d30d9
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue May 12 09:45:09 2015 -0500
+
+    Merge pull request #177 from xyproto/master
+    
+    Terminals on Windows may not have colors
+
+commit 29d30d9f63041b476217e4ff8bfbbe788ee06c9e
+Author: Alexander F Rødseth <rodseth@gmail.com>
+Date:   Tue May 12 16:31:17 2015 +0200
+
+    Terminals on Windows may not have colors
+
+commit d97bbff05eae1c848b40de99880f374b293a5e82
+Author: Philip Allen <philip.allen@searchdiscovery.com>
+Date:   Fri May 1 10:48:23 2015 -0400
+
+    Moving raygun hook to its own repositiroy at github.com/squirkle/logrus-raygun-hook
+
+commit aaf92c95712104318fc35409745f1533aa5ff327
+Merge: 26709e2 f8f0884
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Apr 30 08:58:29 2015 +0200
+
+    Merge pull request #170 from aybabtme/log-to-stderr
+    
+    default logs to stderr
+
+commit f8f08842cce7ed05c296430852f60f287458c529
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Wed Apr 22 15:27:44 2015 -0400
+
+    default logs to stderr
+
+commit 26709e2714106fb8ad40b773b711ebce25b78914
+Merge: 55eb11d 9561fcd
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Wed Apr 22 22:53:12 2015 -0400
+
+    Merge pull request #171 from Sirupsen/fix/broken-test-by-json-unmarshal
+    
+    assertify changed behavior and consider float64 != int
+
+commit 9561fcd7d62d543624c02c2af4d192ede4674914
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Wed Apr 22 22:48:32 2015 -0400
+
+    assertify changed behavior and consider float64 != int
+
+commit 6b18d5cf62777c0f31878bde65f6bd90bf847680
+Author: Philip Allen <philip.allen@searchdiscovery.com>
+Date:   Fri Apr 17 10:51:07 2015 -0400
+
+    Added Raygun hook.
+
+commit 55eb11d21d2a31a3cc93838241d04800f52e823d
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Apr 9 19:08:25 2015 -0400
+
+    changelog: 0.7.3
+
+commit 7ca50a32cda083533c92d330e2ddb556cc8b9cce
+Merge: cdd90c3 e14471f
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Apr 9 19:07:39 2015 -0400
+
+    Merge pull request #162 from stevvooe/timestamp-layout
+    
+    Allow configuration of timestamp layout
+
+commit e14471f8f2019ad541afa6e6f9d7b3233e49bf06
+Author: Stephen J Day <stephen.day@docker.com>
+Date:   Fri Apr 3 17:25:25 2015 -0700
+
+    Allow configuration of timestamp layout
+    
+    Signed-off-by: Stephen J Day <stephen.day@docker.com>
+
+commit cdd90c38c6e3718c731b555b9c3ed1becebec3ba
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Mar 31 11:30:41 2015 -0400
+
+    readme: fix comment on context logger
+
+commit 7586a697f6d50545cf9875d285a242cc5f3898fc
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Mar 31 11:24:31 2015 -0400
+
+    readme: add example of context logging
+
+commit e00ed35f54d331c88f1867a18a7bfc4e4e4685ac
+Merge: ae9ba8a 034cc50
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri Mar 27 10:00:09 2015 -0400
+
+    Merge pull request #160 from gravis/patch-1
+    
+    Add graylog hook to Readme
+
+commit 034cc50c514b567000041965325f71f805fced7d
+Author: Philippe Lafoucrière <philippe.lafoucriere@tech-angels.com>
+Date:   Fri Mar 27 09:43:24 2015 -0400
+
+    Add graylog hook to Readme
+    
+    I have updated the list to be a table instead. It's much more readable than the previous version, and used in a lot of places (ex: https://github.com/codegangsta/negroni/blob/master/README.md)
+
+commit ae9ba8a88ebf8006735488ed6da935b435f6e243
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Mar 26 22:48:30 2015 -0400
+
+    changelog: add #158
+
+commit 35d5aa8f707a16a1d283d02ca3475829f9f7c2c3
+Merge: 3fc34d0 3e3e87a
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Mar 26 22:09:19 2015 -0400
+
+    Merge pull request #158 from scarletmeow/custom_text_format
+    
+    allow custom time format string in TextFormatter
+
+commit 3e3e87a165424431cfda68953647739779ca8b36
+Author: Tiffany Low <tiffany@box.com>
+Date:   Thu Mar 26 16:04:45 2015 -0700
+
+    allow custom time format string in TextFormatter
+    
+    - fixes examples in README.md that incorrectly state usage of
+      RFC3339Nano format instead of RFC3339
+
+commit 3fc34d061b9c78a70db853c7cb6b0576b6d4f32d
+Merge: fa58c5d a4a5df2
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri Mar 20 00:05:19 2015 -0400
+
+    Merge pull request #154 from imkira/master
+    
+    improved: move level check from entry to logger and bail out faster
+
+commit a4a5df2c1f77a42e2db4db0bb0006f43cebf191a
+Author: Mário Freitas <imkira@gmail.com>
+Date:   Thu Mar 19 20:21:56 2015 +0900
+
+    improved: move level check from entry to logger and bail out faster
+
+commit fa58c5d59f0d2ce30a41a05c7e992b6b256242c5
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Mar 19 11:26:39 2015 -0400
+
+    readme: move bugsnag docs
+
+commit 8be81604a8ca2643bb6e595548ee62b2688f1985
+Merge: 2471adf d96cee7
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Mar 19 11:23:38 2015 -0400
+
+    Merge pull request #152 from burke/bugsnag-hook
+    
+    hooks: Add BugSnag hook
+
+commit d96cee72fa69ef226c2d3c1594a829aa539cd902
+Author: Burke Libbey <burke@libbey.me>
+Date:   Thu Mar 19 11:17:22 2015 -0400
+
+    Code review changes
+
+commit 2471adf2312b2a5b3cb34522f628b69d4e795659
+Merge: cf302ff a8b793a
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Mar 19 10:06:15 2015 -0400
+
+    Merge pull request #148 from noxiouz/remove_unused_regexp
+    
+    Remove unused regexp
+
+commit cf302ffdee4061a5f5c15bc806483994f41bed2d
+Merge: 7495181 e178ef4
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Mar 19 10:05:18 2015 -0400
+
+    Merge branch 'logstash'
+
+commit e178ef4efd314fc87c4b60a2e1d374bf93c067d9
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Mar 19 10:04:53 2015 -0400
+
+    formatter/logstash: style
+
+commit 2d359740a46f30c73eda240b6e4f4ba1c7f7c3cd
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri Mar 13 11:10:11 2015 -0700
+
+    text_formatter: remove unneeded regexp
+
+commit bc1129f48e76ebe6db479f0f00807cd417c121c2
+Author: Matt Bostock <matt@mattbostock.com>
+Date:   Tue Mar 10 18:01:14 2015 +0000
+
+    Remove outdated version of Airbrake hook
+    
+    It seems unnecessary to duplicate the code (which is now outdated) in
+    the README. Instead, link to the built-in hooks where a user can see
+    the code.
+
+commit 7ba71bd3573102b76ae7dcf53da889eec986e5cb
+Author: Matt Bostock <matt@mattbostock.com>
+Date:   Tue Mar 10 17:49:55 2015 +0000
+
+    Rework the Airbrake hook
+    
+    Rework the Airbrake hook to:
+    
+    a) change the interface so that the Airbrake credentials are stored in
+    an unexported struct, `airbrakeHook`, which is instantiated using the
+    `NewHook()` method
+    
+    b) send log entries where no 'error' field is set to Airbrake, using the
+    `entry.Message` string as the message sent to Airbrake but continue to
+    allow the passing of error types using the 'error' field
+    
+    Update the tests accordingly, assuring that the correct message is
+    received by the Airbrake server.
+    
+    Also update the examples in the README, which would not have worked with
+    the previous implementation of the Airbrake hook.
+
+commit 4fcb55c7348338bda64180a0dcf7210693362404
+Author: Matt Bostock <matt@mattbostock.com>
+Date:   Tue Mar 10 17:45:12 2015 +0000
+
+    Rename package from logrus_airbrake to airbrake
+    
+    Using underscores in package names in discouraged:
+    https://golang.org/doc/effective_go.html#package-names
+    
+    Given that this package is in a subdirectory of the logrus package,
+    the name `airbrake` should be sufficiently descriptive.
+
+commit 9cc13fab16bb0966fbfe6be657ec4f68158988b3
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Mar 9 15:40:44 2015 +0000
+
+    examples/basic: add debug level
+
+commit 566a97d868bc50ee03e541669892bb703ebd098b
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Mar 9 15:30:43 2015 +0000
+
+    json_formatter: add tests for field clashes and newline
+
+commit 0fa54be10fd40e11f85bf916583f7e816b32932a
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Mar 9 15:19:51 2015 +0000
+
+    text_formatter: add field to disable sorting
+
+commit 0dd045932f30d8291d8434a36702a7c2084821a4
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Mar 9 15:15:08 2015 +0000
+
+    json_formatter: always cast errors to strings
+    
+    Fixes #137
+
+commit 31897e2db52d7e9f61764ba41535f7f92cd8fd2f
+Author: Matt Bostock <matt@mattbostock.com>
+Date:   Fri Mar 6 16:32:18 2015 +0000
+
+    Remove misleading comment in Airbrake hook
+    
+    As far as I can tell, exceptions are always sent regardless of what
+    `airbrake.Environment` is set to.
+
+commit e803eeed62f80d2e5128155a510e4dc955a376e4
+Author: Matt Bostock <matt@mattbostock.com>
+Date:   Fri Mar 6 16:15:30 2015 +0000
+
+    Add integration test to Airbrake hook
+    
+    Add a test for the Airbrake hook to:
+    
+    a) document how the hook is intended to work
+    
+    b) test that an XML payload is received with the expected message
+
+commit ff5ba169e84f2830c307e797974d4c8f7ad92caa
+Author: Henrik Hodne <henrik@travis-ci.com>
+Date:   Wed Mar 4 14:04:50 2015 +0000
+
+    text-formatter: do not quote 9
+
+commit 9aea8212000fa144e46da726521716ee35614ea6
+Author: Nikolay Kirsh <bost56@gmail.com>
+Date:   Mon Mar 2 16:25:19 2015 +0500
+
+    fix Second const
+
+commit 5be851d70636beb2697398b221774c6f23ecdaa5
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Feb 25 19:01:02 2015 +0000
+
+    text_formatter: improve comments
+
+commit 115ae7564e53601c28f4e53dace98bfe515486b5
+Author: Steeve Lennmark <steevel@handeldsbanken.se>
+Date:   Fri Feb 20 18:43:24 2015 +0200
+
+    Add option to show full timestamp in TextFormatter
+    
+    Sometimes elapsed seconds just aren't enough.
+
+commit 9c9013ac4fe5695b432ec3220e7671fdff038158
+Author: Lorenzo Villani <lorenzo@villani.me>
+Date:   Fri Feb 20 16:32:47 2015 +0100
+
+    Change DebugLevel color to gray
+
+commit 7495181ab1c42b4cf148388f5630aa8690cd69a0
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri Mar 13 11:10:11 2015 -0700
+
+    text_formatter: remove unneeded regexp
+
+commit 347abac2ab82a4312c0b5a5bad63bedc59363c25
+Merge: 2cea0f0 ecc16b3
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Mar 19 09:56:24 2015 -0400
+
+    Merge pull request #149 from alphagov/improve_airbrake_hook
+    
+    [#76800642] Rework the Airbrake hook
+
+commit 83752ed3c519dc89614efade9b28cd995eca9544
+Author: Burke Libbey <burke@libbey.me>
+Date:   Mon Mar 16 15:29:39 2015 -0400
+
+    hooks: Add BugSnag hook
+
+commit 2ec723cd5bb75924cb73668fe38b7a5e67fca768
+Author: Alexander Demidov <alex.s.demidov@gmail.com>
+Date:   Sun Mar 15 23:34:19 2015 +0600
+
+    add logstash formatter test
+
+commit ecc16b3b2a583f3d5308ed4a3a4ce5cf45dbc68b
+Author: Matt Bostock <matt@mattbostock.com>
+Date:   Tue Mar 10 18:01:14 2015 +0000
+
+    Remove outdated version of Airbrake hook
+    
+    It seems unnecessary to duplicate the code (which is now outdated) in
+    the README. Instead, link to the built-in hooks where a user can see
+    the code.
+
+commit 83a820d91e2dcb29f44a317ebf629bff37d3c315
+Author: Matt Bostock <matt@mattbostock.com>
+Date:   Tue Mar 10 17:49:55 2015 +0000
+
+    Rework the Airbrake hook
+    
+    Rework the Airbrake hook to:
+    
+    a) change the interface so that the Airbrake credentials are stored in
+    an unexported struct, `airbrakeHook`, which is instantiated using the
+    `NewHook()` method
+    
+    b) send log entries where no 'error' field is set to Airbrake, using the
+    `entry.Message` string as the message sent to Airbrake but continue to
+    allow the passing of error types using the 'error' field
+    
+    Update the tests accordingly, assuring that the correct message is
+    received by the Airbrake server.
+    
+    Also update the examples in the README, which would not have worked with
+    the previous implementation of the Airbrake hook.
+
+commit 78dee3c0ba1a241f27e218a5095d270ba3ad209a
+Author: Matt Bostock <matt@mattbostock.com>
+Date:   Tue Mar 10 17:45:12 2015 +0000
+
+    Rename package from logrus_airbrake to airbrake
+    
+    Using underscores in package names in discouraged:
+    https://golang.org/doc/effective_go.html#package-names
+    
+    Given that this package is in a subdirectory of the logrus package,
+    the name `airbrake` should be sufficiently descriptive.
+
+commit a8b793a1fce082169f0d1f735ab1a3b63261398c
+Author: Anton Tiurin <noxiouz@yandex.ru>
+Date:   Tue Mar 10 19:06:14 2015 +0300
+
+    gofmt
+
+commit 98fd21de2cae4ee1166e6aeb69aaa411dcb23c8d
+Author: Anton Tiurin <noxiouz@yandex.ru>
+Date:   Tue Mar 10 19:04:57 2015 +0300
+
+    [JSON] Use type-switch for error field
+
+commit 7498110889c70a447fdef7fa2d3903c8de92a602
+Author: Anton Tiurin <noxiouz@yandex.ru>
+Date:   Tue Mar 10 18:56:16 2015 +0300
+
+    Remove unused regexp
+
+commit 2cea0f0d141f56fae06df5b813ec4119d1c8ccbd
+Merge: 79d0432 26ea5be
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Mon Mar 9 11:58:39 2015 -0400
+
+    Merge pull request #145 from alphagov/add_tests_to_airbrake_hook
+    
+    Add integration test to Airbrake hook
+
+commit 79d043289eeca70fedf97308f8f6c71b232c6d1d
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Mar 9 15:40:44 2015 +0000
+
+    examples/basic: add debug level
+
+commit bbf1b22f085b2bf331345a498e4dccb131c3468d
+Merge: ab83fac 4fbdf59
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Mar 9 11:39:16 2015 -0400
+
+    Merge pull request #131 from lvillani/debuglevel-gray
+    
+    Change DebugLevel color to gray
+
+commit ab83faccde4b03e36874b09886e273efeb2cc4ae
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Mar 9 15:30:43 2015 +0000
+
+    json_formatter: add tests for field clashes and newline
+
+commit 538395b333d25a59cce4e30b2a41da7354d10865
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Mar 9 15:19:51 2015 +0000
+
+    text_formatter: add field to disable sorting
+
+commit 8287db79348cd82752b91ee2b7dd5fd274982c65
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Mar 9 15:15:08 2015 +0000
+
+    json_formatter: always cast errors to strings
+    
+    Fixes #137
+
+commit 53adda1d3e4e795ef2afacebc29e37a513fc331c
+Merge: a020ac2 8ba09b1
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Fri Mar 6 17:22:14 2015 -0500
+
+    Merge pull request #147 from mattbostock/remove_misleading_comment
+    
+    Remove misleading comment in Airbrake hook
+
+commit 8ba09b1c210af82fae955c933e1c0a6ff73198dc
+Author: Matt Bostock <matt@mattbostock.com>
+Date:   Fri Mar 6 16:32:18 2015 +0000
+
+    Remove misleading comment in Airbrake hook
+    
+    As far as I can tell, exceptions are always sent regardless of what
+    `airbrake.Environment` is set to.
+
+commit 26ea5be9c38ab4561c6ce4eb84543634cf777924
+Author: Matt Bostock <matt@mattbostock.com>
+Date:   Fri Mar 6 16:15:30 2015 +0000
+
+    Add integration test to Airbrake hook
+    
+    Add a test for the Airbrake hook to:
+    
+    a) document how the hook is intended to work
+    
+    b) test that an XML payload is received with the expected message
+
+commit 3cc6fcc52194ca551e2a153f07eceb98c1d1ea66
+Author: Alexander Demidov <alex.s.demidov@gmail.com>
+Date:   Thu Mar 5 23:31:39 2015 +0600
+
+    use formatters directory
+
+commit a020ac2471759b4903deca15bc6b470cd96498c4
+Merge: eb84da5 cd4266d
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Mar 4 10:45:58 2015 -0500
+
+    Merge pull request #143 from henrikhodne/do-not-quote-9
+    
+    Text formatter: Do not quote 9
+
+commit cd4266df0e06b41f20f91c01807d12aaa27f10ef
+Author: Henrik Hodne <henrik@travis-ci.com>
+Date:   Wed Mar 4 14:04:50 2015 +0000
+
+    text-formatter: do not quote 9
+
+commit eb84da520d0bfecda7a9288107ec991b4ebcedb4
+Merge: c0f7e35 c810928
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Mar 2 07:28:43 2015 -0500
+
+    Merge pull request #140 from xboston/patch-1
+    
+    fix Second const
+
+commit c810928262241370df14cc6df9f200aa0dfe99fd
+Author: Nikolay Kirsh <bost56@gmail.com>
+Date:   Mon Mar 2 16:25:19 2015 +0500
+
+    fix Second const
+
+commit c0f7e35ed2e48f188c37581b4b743cf7383f85c6
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Feb 25 19:01:02 2015 +0000
+
+    text_formatter: improve comments
+
+commit b0279da492e2b1a2577a8535a3dfdf6529f4491a
+Merge: 6dcec6e ccaf698
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Feb 25 13:59:30 2015 -0500
+
+    Merge pull request #134 from steevel/master
+    
+    Add option to show full timestamp in TextFormatter
+
+commit ccaf6983d911b38451b7c3050c1f4664ae6495cc
+Author: Steeve Lennmark <steevel@handeldsbanken.se>
+Date:   Fri Feb 20 18:43:24 2015 +0200
+
+    Add option to show full timestamp in TextFormatter
+    
+    Sometimes elapsed seconds just aren't enough.
+
+commit 75cc3dd51a36addf41a68ff6dba8089e1eae293b
+Author: Alex Demidov <alex.s.demidov@gmail.com>
+Date:   Fri Feb 20 21:02:11 2015 +0500
+
+    Update README.md
+
+commit e15d51fef3f38c49e6b9f573419c62cdc3ac267b
+Author: Alexander Demidov <alex.s.demidov@gmail.com>
+Date:   Fri Feb 20 21:52:53 2015 +0600
+
+    formatter for logstash (http://logstash.net)
+
+commit 4fbdf5948e7969d5b9d16739da42f03e9aa00eff
+Author: Lorenzo Villani <lorenzo@villani.me>
+Date:   Fri Feb 20 16:32:47 2015 +0100
+
+    Change DebugLevel color to gray
+
+commit 6dcec6ed3bdf8559ac1696bc32d7dbd9aadaf5b6
+Merge: 4d9b4f0 f08673d
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Feb 19 19:52:08 2015 -0500
+
+    Merge pull request #127 from noxiouz/fix_datarace_GetLevel
+    
+    [Race] Fix datarace in GetLevel
+
+commit f08673d24a53e195143223b38355d9a328526c50
+Author: Anton Tiurin <noxiouz@yandex.ru>
+Date:   Tue Feb 17 04:06:45 2015 +0300
+
+    [Race] Fix datarace in GetLevel
+    
+    `std.Level` is protected by mutex in setter (SetLevel),
+    so it must be protected in geetter (GetLevel) too.
+    
+    Signed-off-by: Anton Tiurin <noxiouz@yandex.ru>
+
+commit 4d9b4f0c8393f52d78a2876e8784813819d9fcb1
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Feb 19 18:51:02 2015 +0000
+
+    readme: add journal hook
+
+commit 273bd5984cd7deae8d4b71b0ba9bfc5767f7284b
+Merge: 38a6ff9 d1dfe8d
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Feb 17 12:42:44 2015 -0500
+
+    Merge pull request #129 from noxiouz/speedup_text_formatter
+    
+    [TextFormatter] Preallocate enough memory for keys to speedup
+
+commit d1dfe8db73576a3c5b2740f2ad6d5fb08de489c9
+Author: Anton Tiurin <noxiouz@yandex.ru>
+Date:   Tue Feb 17 19:03:34 2015 +0300
+
+    [TextFormatter] Preallocate enough memory for keys to speedup.
+    
+    Benchmarks:
+     * BenchmarkSmallTextFormatter: 6140/5943 ~3%
+     * BenchmarkLargeTextFormatter: 28050/24789 ~11%
+    
+    Signed-off-by: Anton Tiurin <noxiouz@yandex.ru>
+
+commit 38a6ff9215d472ce953bb9aa37b5327715c0f940
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Feb 12 17:48:26 2015 +0000
+
+    readme: add note on stability to avoid confusion
+
+commit 7f14e05c6c33a4d5d25f3cac1254bd71a7b87e51
+Merge: 0b189e0 6383fe4
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Feb 10 12:38:07 2015 -0500
+
+    Merge pull request #126 from x1022as/master
+    
+    fix typo
+
+commit 6383fe40c57aaa61a11d77c31657791dcfd61121
+Author: d00221763 <dengguangxing@huawei.com>
+Date:   Tue Feb 10 16:49:34 2015 +0800
+
+    fix typo
+    
+    Signed-off-by: Deng Guangxing <denguangxing@huawei.com>
+
+commit 0b189e019aabcec0af8e433b10b3073ad9382b44
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sat Feb 7 20:27:43 2015 +0000
+
+    terminal: don't exclude appengine
+
+commit 467d9d55c2d2c17248441a8fc661561161f40d5e
+Merge: 89efc1f 896e5e5
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Feb 3 15:19:37 2015 -0500
+
+    Merge pull request #119 from Sirupsen/add-writer-to-readme
+    
+    add an entry about writer in README
+
+commit 896e5e5d4d8753d4524769d94d4ccd70431fe361
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Sat Jan 31 14:07:15 2015 -0500
+
+    add an entry about logger.Writer() in README
+
+commit 89efc1fea9b8b47f6f6ce72279a7ed9496b4cdb3
+Merge: 539d4dc 51cbf81
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri Jan 30 13:07:08 2015 -0500
+
+    Merge pull request #103 from phemmer/writer_interface
+    
+    add io.Writer interface compatability
+
+commit 51cbf81dde8386da666d00e393bef92087d28eee
+Author: Patrick Hemmer <patrick.hemmer@gmail.com>
+Date:   Mon Jan 26 09:59:50 2015 -0500
+
+    rename InputWriter -> Writer
+
+commit 539d4dc034c079a7188b5d4ca9650632d73c66e8
+Merge: 844911c 2bc78c2
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri Jan 23 12:37:18 2015 -0500
+
+    Merge pull request #117 from mattyw/patch-1
+    
+    drive by fix to README.md
+
+commit 2bc78c204be000ab974214cd012a330d68894806
+Author: Matt Williams <gh@mattyw.net>
+Date:   Fri Jan 23 01:57:51 2015 +0000
+
+    drive by fix to README.md
+
+commit 844911ce078544c0d950b86ef09e6d19270ed33a
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Jan 20 20:38:13 2015 -0500
+
+    test: remove deprecated #len calls
+
+commit ed888975b3cc9170f10b256d99f1ec82f81e615b
+Author: Patrick Hemmer <patrick.hemmer@gmail.com>
+Date:   Tue Jan 20 10:11:57 2015 -0500
+
+    close inputReader on error instead of using Fatal()
+
+commit bdb64b3f9f9a4c710057ec800864e3e20eac0e21
+Merge: 58f778a 0009c01
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Mon Jan 19 19:00:36 2015 -0500
+
+    Merge pull request #115 from rasky/go14
+    
+    Add testing for go 1.4
+
+commit 0009c01b319f641d438dc84c25cab39eb846fdf2
+Author: Giovanni Bajo <rasky@develer.com>
+Date:   Sun Jan 18 02:17:16 2015 +0100
+
+    Simplify dep install
+
+commit 0e4c360cd8d8929c09c0a3e11df6dd1187a871c3
+Author: Giovanni Bajo <rasky@develer.com>
+Date:   Sun Jan 18 02:06:44 2015 +0100
+
+    Test with go 1.4
+
+commit 58f778a886b1e483dccc3b61085ccf347bf1a37e
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Jan 15 13:40:48 2015 -0500
+
+    Revert "Merge pull request #100 from crquan/patch-1"
+    
+    This reverts commit c6a969a0de65e41b666c5dd015b3988b47cd940b, reversing
+    changes made to 3c5b048a9d4a00d644cf9992762c26d4ca8493ac.
+
+commit c6a969a0de65e41b666c5dd015b3988b47cd940b
+Merge: 3c5b048 dcbe8d6
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Jan 15 07:12:29 2015 -0500
+
+    Merge pull request #100 from crquan/patch-1
+    
+    make sure no trailing spaces
+
+commit 3c5b048a9d4a00d644cf9992762c26d4ca8493ac
+Merge: 35ade18 8c09acd
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Jan 14 20:05:07 2015 -0500
+
+    Merge pull request #104 from freeformz/doc-fix
+    
+    The format is logfmt, not l2met, although that is where it "originated"
+
+commit 35ade18898a9cc45824bfd21664b5fd5ee576124
+Merge: 2f72235 97e9510
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Jan 14 18:31:36 2015 -0500
+
+    Merge pull request #101 from vbatts/termios_openbsd
+    
+    openbsd Termios
+
+commit 2f722357d32d0a24ffc0530c506fcc8b43973498
+Merge: d2f9ffa e2dff63
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Jan 14 18:30:43 2015 -0500
+
+    Merge pull request #105 from phemmer/entry_warning
+    
+    Add missing `(*Entry) Warning()` function
+
+commit e2dff63faaa3a5a4ad6fe1b160185b83c0dd0535
+Author: Patrick Hemmer <patrick.hemmer@gmail.com>
+Date:   Mon Jan 12 17:20:11 2015 -0500
+
+    Add missing `(*Entry) Warning()` function
+
+commit 299ee952775f50ef63047af52f17a034d7da634b
+Author: Patrick Hemmer <patrick.hemmer@gmail.com>
+Date:   Thu Jan 8 01:04:07 2015 -0500
+
+    add io.Writer interface compatability
+
+commit 8c09acde8946dfb0a401270626bc8093ae8dea9d
+Author: Edward Muller <edwardam@interlix.com>
+Date:   Fri Jan 9 16:13:34 2015 -0800
+
+    The format is logfmt, not l2met, although that is where it "originated"
+
+commit 97e951044c4789de1e8f13f6afad22f840b449c1
+Author: Vincent Batts <vbatts@hashbangbash.com>
+Date:   Tue Jan 6 08:44:32 2015 -0500
+
+    terminal: openbsd Termios
+    
+    Signed-off-by: Vincent Batts <vbatts@hashbangbash.com>
+
+commit dcbe8d66af81426652973ccf8788ae0b008dda08
+Author: Derek Che <drc@yahoo-inc.com>
+Date:   Sun Jan 4 00:46:15 2015 +0000
+
+    make sure no leading or trailing spaces
+    
+    This changed printColored and printKeyValue to print in same way
+    with prefix space instead of trailing space, to make it easier
+    to slice out when returning in Format;
+    The test cases are to make sure msg formartting doesn't include
+    leading or trailing spaces;
+    
+    Closes #99
+    
+    Signed-off-by: Derek Che <drc@yahoo-inc.com>
+
+commit a243bbaa0b2e5314bf8e53831d9e0c1afa67de51
+Author: Derek Che <drc@yahoo-inc.com>
+Date:   Sun Jan 4 00:01:49 2015 -0800
+
+    share common calling path in printKeyValue
+    
+    Signed-off-by: Derek Che <drc@yahoo-inc.com>
+
+commit 03377c6168987e4341f3ce44b640f31a0cd19af8
+Author: Derek Che <drc@yahoo-inc.com>
+Date:   Sat Jan 3 23:56:39 2015 -0800
+
+    rename f.appendKeyValue to printKeyValue
+    
+    printKeyValue is working similar like printColored, not using
+    any fields of TextFormatter, should be a util func instead of
+    a method of TextFormatter.
+    
+    Signed-off-by: Derek Che <drc@yahoo-inc.com>
+
+commit d2f9ffa1d9cf25b25191b221229effac1b6de526
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Dec 30 14:02:50 2014 +0100
+
+    readme: add slack hook
+    
+    closes #98
+
+commit a51c6e4ce28d891bca2eb7f7bc5805854a3c2051
+Merge: fd90de6 82c427c
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Dec 29 11:10:33 2014 +0100
+
+    Merge pull request #96 from msabramo/patch-4
+    
+    README.md: Add Godoc badge to top
+
+commit 82c427c51551412a5610ba0dabeefeadbcfe627b
+Author: Marc Abramowitz <marc@marc-abramowitz.com>
+Date:   Sun Dec 28 12:56:20 2014 -0800
+
+    README.md: Add Godoc badge to top
+
+commit fd90de65707e7ce39b6b610de2ad3b1d000b60b5
+Merge: 51fe59a 60d80a6
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri Dec 26 20:55:22 2014 +0100
+
+    Merge pull request #93 from xi3/master
+    
+    Update papertrail.go
+
+commit 60d80a6d2cd3e43751c757328082c06f34611b75
+Author: xi3 <tianxi.liu@gmail.com>
+Date:   Fri Dec 19 21:11:58 2014 +0800
+
+    Update papertrail.go
+    
+    Report all log data,  not just the entry.message.
+
+commit 51fe59aca108dc5680109e7b2051cbdcfa5a253c
+Merge: 7096056 e5c1364
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Dec 18 10:52:14 2014 -0500
+
+    Merge pull request #92 from rasky/no-extra-quoting
+    
+    Avoid extra quotes where not strictly necessary.
+
+commit e5c1364122680f75bf4615a880a4afae08ccef53
+Author: Giovanni Bajo <rasky@develer.com>
+Date:   Thu Dec 18 15:14:24 2014 +0100
+
+    Fix test to adjust for missing quotes
+
+commit 15b296befc8fa20d93c34f6ca2ba934444d27749
+Author: Giovanni Bajo <rasky@develer.com>
+Date:   Thu Dec 18 15:09:01 2014 +0100
+
+    Avoid using regexp
+
+commit 98ee5434ef02856cc9289f546c38d12a3244fe15
+Author: Giovanni Bajo <rasky@develer.com>
+Date:   Thu Dec 18 07:59:41 2014 +0100
+
+    Make the test more robust
+
+commit 7096056d3cab4d7d11436441f5fc2935cb1cf58c
+Merge: 4266e0e f0a637a
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Dec 15 16:09:30 2014 -0500
+
+    Merge pull request #91 from rasky/disable-timestamp
+    
+    Allow disabling timestamp in non-tty output.
+
+commit f0a637a8341cf1af53223928eedf5f4804e08510
+Author: Giovanni Bajo <rasky@develer.com>
+Date:   Mon Dec 15 21:58:26 2014 +0100
+
+    Document new option
+
+commit a3ef049df93e9d4b4070382c00ac4475dbff3a3c
+Author: Giovanni Bajo <rasky@develer.com>
+Date:   Mon Dec 15 20:20:33 2014 +0100
+
+    Avoid extra quotes where not strictly necessary.
+    
+    It's not necessary to enclose in quotes every single string value
+    in log2met format; when using basic words, it's possible to not
+    quote it (as heroku does for its own logging). This keeps the
+    logs easier on the human eye.
+
+commit 3e9d38f80da8c10426533fbe6821b3fa1ff82dd8
+Author: Giovanni Bajo <rasky@develer.com>
+Date:   Mon Dec 15 20:02:02 2014 +0100
+
+    Allow disabling timestamp in non-tty output.
+    
+    This is useful if the output is already being piped to a logger
+    daemon that will prefix the timestamp by itself (eg: on heroku).
+
+commit 4266e0eb6811bb6ac2087bfa61ea345e56db5777
+Merge: 5f3c40c 535f69a
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Dec 11 20:08:49 2014 -0500
+
+    Merge pull request #90 from sebest/master
+    
+    Add links to a loggly.com hook
+
+commit 535f69a2f4ab08bfb746fff4a70801bc7b57d441
+Author: Sebastien Estienne <sebastien.estienne@gmail.com>
+Date:   Thu Dec 11 16:01:13 2014 -0800
+
+    Add links to a loggly.com hook
+
+commit 5f3c40cc467d4d9c89ae3b73e1e0ef6777301c81
+Merge: 0ae5377 2835e15
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Dec 10 14:07:28 2014 -0500
+
+    Merge pull request #89 from Sirupsen/fix-logrus-double-fields
+    
+    Fix JSON formatter prefixing old msg/time/level fields
+
+commit 2835e150d968bd0cd8acaed3a97016342bcb2dea
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Tue Dec 9 21:53:40 2014 -0500
+
+    fixes #88
+
+commit 62b915c008602a0c106771ce7652415bdc495cda
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Tue Dec 9 21:53:14 2014 -0500
+
+    regression test for issue #88
+
+commit 0ae53775f7736dbe9bbccbedb3c408f13ce5282e
+Merge: 6c28e16 5e322e5
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri Dec 5 06:51:43 2014 -0500
+
+    Merge pull request #86 from romankonz/patch-1
+    
+    Update README.md - changed conflicting imports
+
+commit 5e322e5cfef6ef4adb18e3de24832c8ccf759ca9
+Author: Roman Konz <roman@konz.me>
+Date:   Fri Dec 5 11:00:48 2014 +0100
+
+    Update README.md - changed conflicting imports
+
+commit 6c28e16200e55c2549705ac24ea58976c07f18ac
+Merge: cc09837 d9706af
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Nov 27 12:42:15 2014 -0500
+
+    Merge pull request #85 from gigaroby/doc-fix
+    
+    documentation fix
+
+commit d9706afd4aa1ed803223779859c329f2dc5ad224
+Author: Roberto Bampi <bampi.roberto@gmail.com>
+Date:   Thu Nov 27 07:54:16 2014 +0100
+
+    documentation fix
+
+commit cc09837bcd512ffe6bb2e3f635bed138c4cd6bc8
+Merge: f9e0c0d 5df4b88
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Nov 25 12:46:20 2014 -0500
+
+    Merge pull request #74 from gigaroby/sentry-hook
+    
+    Added sentry hook
+
+commit 5df4b882d06b8506a1e5b4f15ff2651b68423c26
+Author: Roberto Bampi <bampi.roberto@gmail.com>
+Date:   Tue Nov 25 13:36:08 2014 +0100
+
+    timeout is now configurable and documented
+
+commit f9e0c0dd4aec8f179cb6dc4f2aea811f36b58f54
+Author: Peter Olds <polds@kyanicorp.com>
+Date:   Wed Nov 5 22:04:58 2014 -0700
+
+    Fix Papertrail bug
+    
+    Conflicts:
+    	hooks/papertrail/papertrail.go
+
+commit 1f2ba2c6317323dd667bd266c1e8ebffc4a4c62f
+Merge: 66afa87 c0b1ea9
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sun Nov 23 12:07:01 2014 -0500
+
+    Merge pull request #84 from vincentbernat/fix/syslog
+    
+    syslog: let syslog output lookup level directly in Entry struct
+
+commit c0b1ea991b0c0a6ba658e2bb54ef96f60e5c091b
+Author: Vincent Bernat <vincent@bernat.im>
+Date:   Sun Nov 23 18:02:34 2014 +0100
+
+    syslog: let syslog output lookup level directly in Entry struct
+    
+    Log level has moved from `entry.Data["level"]` to `entry.Level`. Use
+    that to get the right level.
+    
+    Fix: #82
+
+commit 66afa87e45b8beb48e7cd770032b4172d403ad82
+Merge: 98924b0 c64b18f
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sat Nov 22 21:17:51 2014 -0500
+
+    Merge pull request #79 from duglin/AddGetLevel
+    
+    add GetLevel support
+
+commit 98924b0b51569c5b647bc86fd1a1ef1387b9bf2e
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sun Nov 23 02:09:39 2014 +0000
+
+    readme: fix syslog example
+
+commit c64b18f6882f5308ba2e3bb2e583e2f0c20dbd85
+Author: Doug Davis <dug@us.ibm.com>
+Date:   Wed Nov 12 07:40:34 2014 -0500
+
+    add GetLevel support
+    
+    Signed-off-by: Doug Davis <dug@us.ibm.com>
+
+commit 383ab1fb69bd03d3f0a3bfbe69714050e833e196
+Author: Roberto Bampi <bampi.roberto@gmail.com>
+Date:   Thu Nov 6 21:17:29 2014 +0100
+
+    added delivery timeout
+
+commit f92b7950b372b1db80bd3527e4d40e42555fe6c2
+Merge: 6ebb4e7 5164671
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Nov 6 11:24:30 2014 -0500
+
+    Merge pull request #76 from meatballhat/save-entry-string-for-panic
+    
+    Panic with entry instead of entry string
+
+commit 5164671bc642569fbec92d6805c5da24b38d877c
+Author: Dan Buch <daniel.buch@gmail.com>
+Date:   Thu Nov 6 08:42:52 2014 -0500
+
+    Making panic level assertions more helpful
+
+commit 8bbc74e9fbb88cf146be80c65ad0c5bbc87507a7
+Author: Roberto Bampi <bampi.roberto@gmail.com>
+Date:   Thu Nov 6 10:07:41 2014 +0100
+
+    various fixes
+
+commit 9836f1ba0e5f6a863b7868d58c6957f9f84a3dc4
+Author: Dan Buch <daniel.buch@gmail.com>
+Date:   Wed Nov 5 20:39:35 2014 -0500
+
+    Adding tests for PanicLevel behavior, plus changing behavior!  :scream_cat:
+
+commit f302a46d2ab1439e88e51192fa8a4abfe511293d
+Author: Dan Buch <daniel.buch@gmail.com>
+Date:   Wed Nov 5 14:07:40 2014 -0500
+
+    Switching to io.MultiWriter for clarity
+
+commit ced531341e99935442723f91ef6949326a0f66cc
+Author: Dan Buch <daniel.buch@gmail.com>
+Date:   Wed Nov 5 13:49:58 2014 -0500
+
+    Saving off entry string for use in panic
+    
+    as the reader is not seekable and without this the panic string is
+    always empty :scream_cat:
+
+commit 0e6a27180fbe01789fd181452d949952ec327e86
+Author: Roberto Bampi <bampi.roberto@gmail.com>
+Date:   Sun Nov 2 19:39:51 2014 +0100
+
+    added raven-go to .travis.yml
+
+commit 4e014d4268d34b3c861a227e6ad966512ac47883
+Author: Roberto Bampi <bampi.roberto@gmail.com>
+Date:   Sun Nov 2 19:31:15 2014 +0100
+
+    added tests
+
+commit 9bf47770d5bcae3dd261fba54e98ef56571af401
+Author: Roberto Bampi <bampi.roberto@gmail.com>
+Date:   Sat Nov 1 19:55:40 2014 +0100
+
+    added sentry logger
+
+commit 6ebb4e7b3c24b9fef150d7693e728cb1ebadf1f5
+Merge: 2e36101 739afbf
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Oct 27 22:31:40 2014 +0100
+
+    Merge pull request #71 from mpuncel/mpuncel/fix-readme
+    
+    fix bug in example in README
+
+commit 739afbfd4efecbdad4ccc540a3ac04200532086b
+Author: Michael Puncel <mpuncel@squareup.com>
+Date:   Mon Oct 27 14:22:57 2014 -0700
+
+    fix bug in example in README
+
+commit 2e36101a197f56f60ca6c37c3c256ed3713a9649
+Merge: 3d46664 938dffa
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Oct 23 17:05:14 2014 +0200
+
+    Merge pull request #70 from Sirupsen/failed-hook-errors
+    
+    hooks: lock on the logger before printing to stderr, printf args
+
+commit 938dffa0e0fb6dea8e1b1900a07df3455c64c12a
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Tue Oct 21 19:26:29 2014 -0400
+
+    hooks: lock on the logger before printing to stderr, printf args
+
+commit 3d46664b062c3a468b50e367f115179e26a9462c
+Merge: 965349d 5573f97
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Oct 16 09:15:30 2014 -0400
+
+    Merge pull request #69 from zimmski/typos
+    
+    fix some typos
+
+commit 5573f97efc7fe8a4380b6b4b169fbc21a7f6fc24
+Author: Markus Zimmermann <markus.zimmermann@nethead.at>
+Date:   Thu Oct 16 14:39:13 2014 +0200
+
+    fix some typos
+
+commit 965349de21e7b1e9e80b6ae02e093f1522516ef3
+Merge: 3737b32 acf1c0d
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri Oct 3 12:39:12 2014 -0400
+
+    Merge pull request #68 from Sirupsen/errors-should-be-in-string
+    
+    textformatter: errors should be in quotes like strings are
+
+commit acf1c0d583f42c12720dd1b63dc8f8a729695a17
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Fri Oct 3 11:58:24 2014 -0400
+
+    textformatter: errors should be in quotes like strings are
+
+commit 3737b3267e9df4c78170cf695eb35a984330cd6f
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Wed Sep 24 23:23:01 2014 -0400
+
+    logrus: remove test for dbg alias in ParseLevel.
+
+commit 45d5602d9c6c92c2b224dda757df1d20f83986d8
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Sep 25 03:10:06 2014 +0000
+
+    logrus: remove dbg alias for ParseLevel
+    
+    \cc @mohae
+
+commit 4617ccb6533316bc4877f4c698c3ab7d31b87757
+Merge: 3b5af9a 4e6e671
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Sep 24 23:09:09 2014 -0400
+
+    Merge pull request #62 from mohae/setloglevel
+    
+    added support for setting log level using strings: SetLogLevel()
+
+commit 3b5af9a6dcdae3bfc5ec34947e4023514f75ea9a
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Sep 25 03:08:26 2014 +0000
+
+    entry: add comment to panic comparison in log()
+
+commit 51ca046ebf6497dc0293d82d1162372d79fe47c6
+Merge: f75f3a6 f96066e
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Sep 24 23:06:38 2014 -0400
+
+    Merge pull request #65 from pquerna/remove_unused_string
+    
+    Only convert []bytes into a String() when needed for a panic
+
+commit f75f3a649c930d2905fa35b415b207d568d6741a
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Sep 25 03:05:52 2014 +0000
+
+    readme: fix papertrail link
+    
+    \cc @al3x
+
+commit 5f97d94c1b7e063005ed70d12a6f2cd69012c166
+Merge: 89b6d46 dc01f6d
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Sep 24 23:01:39 2014 -0400
+
+    Merge pull request #60 from aybabtme/fix-duplicate-keys
+    
+    fix duplication of msg/time/level keys, add benchmarks.
+
+commit f96066e3bf3d336a86255321d5436a30265c31f8
+Author: Paul Querna <pquerna@apache.org>
+Date:   Tue Sep 23 17:05:07 2014 -0700
+
+    Only convert []bytes into a String() when needed for a panic, and not on other log levels
+
+commit dc01f6d5978b1ba864f7e7337d27979430d09705
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Sun Sep 21 13:16:35 2014 -0400
+
+    add regression for basic fields being incorrectly prefixed
+
+commit 4e6e67128134d975b84c3fec23d1667101c81931
+Author: Joel Scoble <joel.scoble@outlook.com>
+Date:   Wed Sep 17 17:03:34 2014 -0500
+
+    add ParseLevel to get Level from string
+
+commit c4cc714937a366b4c1fe44bbbf88041c4d6b1382
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Tue Sep 16 20:19:42 2014 -0400
+
+    fix duplication of msg/time/level keys, add benchmarks.
+
+commit 89b6d460f0048bd1591d723b483f89b127257dbb
+Merge: 8a758be d35b1c9
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Sep 16 17:24:56 2014 -0400
+
+    Merge pull request #59 from aybabtme/avoid-syscalls-at-each-logentry
+    
+    text-formatter: assume that IsTerminal doesn't change during execution
+
+commit d35b1c983ea5d52ef1d5a667eaa9467ac06ac8b7
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Tue Sep 16 17:19:03 2014 -0400
+
+    text-formatter: assume that IsTerminal doesn't change during execution
+
+commit 8a758beb29d12fd515c3d930c657340195f4ce41
+Merge: d70cdce 1aa7173
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sun Sep 14 17:18:59 2014 -0400
+
+    Merge pull request #58 from al3x/master
+    
+    Add Papertrail hook
+
+commit 1aa71730f7bfd27c10dc255ab6ffe2e6ae39b665
+Author: Alex Payne <al3x@al3x.net>
+Date:   Sun Sep 14 11:55:49 2014 -0700
+
+    Include airbrake-go dependency in Travis install step.
+
+commit 29eb7b0e468d6dd346fffe832e4233c8f876a99b
+Author: Alex Payne <al3x@al3x.net>
+Date:   Sun Sep 14 11:50:08 2014 -0700
+
+    Updated Travis CI configuration.
+    
+    - Move to more recent version of Go, setting aside 1.1. - Use `install` instead of `before_script` to install library dependencies, as per [documentation](http://docs.travis-ci.com/user/languages/go/).
+
+commit 51770fb4eb7a407cacc5e0f04624bb45261f964b
+Author: Alex Payne <al3x@al3x.net>
+Date:   Sat Sep 13 13:53:20 2014 -0700
+
+    Use third-party UDP testing library to tighten up test.
+
+commit e9499670227fff63a688eed6499bcca3e049ebc4
+Author: Alex Payne <al3x@al3x.net>
+Date:   Sat Sep 13 13:52:51 2014 -0700
+
+    Remove cruft.
+
+commit ced81183efb31f2453a503e5ae3195dea12d1e34
+Author: Alex Payne <al3x@al3x.net>
+Date:   Sat Sep 13 13:52:24 2014 -0700
+
+    Proper log levels.
+
+commit dbf7fad1dc0a62e1cba6e69bcb6437273eda1d06
+Author: Alex Payne <al3x@al3x.net>
+Date:   Sat Sep 13 13:04:25 2014 -0700
+
+    Don't disconnect on every Fire()
+
+commit 91f92800d74be765d6933b6e313b94076e346be7
+Author: Alex Payne <al3x@al3x.net>
+Date:   Sat Sep 13 13:03:40 2014 -0700
+
+    Include number of bytes written as debugging output.
+
+commit 29c4caff543b6311ff5df0fdb9aab0424343d817
+Author: Alex Payne <al3x@al3x.net>
+Date:   Sat Sep 13 13:03:15 2014 -0700
+
+    Log just the message, not the stringified version of the whole log line.
+
+commit 0a2a97ea82b3ca56a27579a4f31f666ed638bfcf
+Author: Alex Payne <al3x@al3x.net>
+Date:   Sat Sep 13 11:55:21 2014 -0700
+
+    Improved documentation for Papertrail hook.
+
+commit a93cac017b0807f9c7a5a2b899d46dc4bed0acc1
+Author: Alex Payne <al3x@al3x.net>
+Date:   Sat Sep 13 11:55:08 2014 -0700
+
+    Link to Papertrail hook. Format hook links consistently.
+
+commit f42d21582890f0152788f1f19853806ff7de1f55
+Author: Alex Payne <al3x@al3x.net>
+Date:   Fri Sep 12 17:44:28 2014 -0700
+
+    README for Papertrail hook with usage info.
+
+commit 4c9637c8b47d21f050d163b4eae740fd4137ab50
+Author: Alex Payne <al3x@al3x.net>
+Date:   Fri Sep 12 17:40:09 2014 -0700
+
+    Papertrail hook, uses their UDP interface.
+
+commit d70cdce21e9aef489bfc77581685712a22d71dd8
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri Aug 29 13:50:40 2014 -0400
+
+    readme: fix examples
+
+commit c13432b0a52fa22ed08301e522a0bdb2ce0e2d40
+Merge: 736840a 124e36d
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Aug 26 09:11:44 2014 -0400
+
+    Merge pull request #55 from surma-dump/master
+    
+    Add hiprus to hook list
+
+commit 124e36dcb923b091d7ec47ab50421a86317a0287
+Author: Alexander Surma <surma@surmair.de>
+Date:   Tue Aug 26 12:16:06 2014 +0200
+
+    Add hiprus to hook list
+
+commit 736840a898fb560e3d93413410a4cb1371f42f71
+Merge: aa1c874 cc9d142
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri Aug 15 00:06:46 2014 +0200
+
+    Merge pull request #53 from suicidejack/master
+    
+    Ability to completely disable colors when using the text formatter
+
+commit cc9d1426337bf50e7fbd22c36bd1d13af9e2c83e
+Author: Matt Price <matt.price@mandiant.com>
+Date:   Thu Aug 14 18:04:57 2014 -0400
+
+    cleaned up Readme details
+
+commit aa1c874a5588b680c5f56b348b054a18545df0c6
+Merge: d1c2d61 a0dea8c
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Aug 14 23:27:44 2014 +0200
+
+    Merge pull request #49 from suin/patch-1
+    
+    fix typo in README.md
+
+commit e2a44689a6ce3863ae1a4f051a2fc550dfb6f82b
+Author: Matt Price <matt.price@mandiant.com>
+Date:   Wed Aug 13 13:36:59 2014 -0400
+
+    updated README and added reference
+
+commit af9d545893db51f0257b1f7b068411858553420b
+Author: Matt Price <matt.price@mandiant.com>
+Date:   Wed Aug 13 13:30:25 2014 -0400
+
+    can completely disable colors on text formatter
+
+commit a0dea8c09d9e3b791daf71afe0f83c392844cd4d
+Author: suin <suinyeze@gmail.com>
+Date:   Wed Aug 6 12:09:02 2014 +0900
+
+    fix typo in README.md
+
+commit d1c2d610bd8d921fcffc4791c204eafa634e2956
+Merge: e1154b4 2a6183b
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Jul 30 19:35:33 2014 -0400
+
+    Merge pull request #46 from didip/master
+    
+    SyslogHook
+
+commit 2a6183b10643fb31bd0a15314b4987517cc3eb07
+Author: Didip Kerabat <didipk@gmail.com>
+Date:   Sun Jul 27 22:43:21 2014 -0700
+
+    Updated to use new style of log level.
+
+commit 6d5b58f3d6012e01dfc707e7b3ecbbfa9c999fbe
+Merge: 426748f e1154b4
+Author: Didip Kerabat <didipk@gmail.com>
+Date:   Sun Jul 27 22:19:58 2014 -0700
+
+    Merge upstream
+
+commit 426748f3390fa1ffc1db9a9d214d7ae6929d04ce
+Merge: 491a120 90a435e
+Author: Didip Kerabat <didipk@gmail.com>
+Date:   Sun Jul 27 22:05:06 2014 -0700
+
+    Merge branch 'master' of github.com:didip/logrus
+
+commit 491a120617542fc70893df6a1807364910f0d8c4
+Author: Didip Kerabat <didipk@gmail.com>
+Date:   Sun Jul 27 22:04:55 2014 -0700
+
+    Call entry.String() directly.
+
+commit ffc6dc63efc3ee48c94bb101f897553e6fbca4ff
+Author: Didip Kerabat <didipk@gmail.com>
+Date:   Sun Jul 27 22:01:56 2014 -0700
+
+    go fmt
+
+commit e1154b431565f2f11106046e8e86ef35256b4d28
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sat Jul 26 22:57:45 2014 -0400
+
+    exported: export to be api compatible
+
+commit 330e34061ed41f46e4d5e4f729026fd0798836e9
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sat Jul 26 22:51:23 2014 -0400
+
+    readme: fix examples
+
+commit 3f50cc7bf7cf1026a5ff433908bf1930a8da5482
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sat Jul 26 22:46:08 2014 -0400
+
+    readme: encourage package level logging
+    
+    Conflicts:
+    	README.md
+
+commit da97142f2a04700d9e85d1f4987b74439ff24786
+Merge: 3b30f00 33c9d5a
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sat Jul 26 22:23:53 2014 -0400
+
+    Merge pull request #48 from Sirupsen/break-out-specials
+    
+    entry: break out time, level and message from data
+
+commit 33c9d5aebc1b5419db852072f07e14de7705132e
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sat Jul 26 22:23:41 2014 -0400
+
+    readme: fix levels
+
+commit 2c0db7c868ca1bb005627e6816fa5f51cb9708c1
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sat Jul 26 22:22:39 2014 -0400
+
+    formatter: drop internalFormatter
+
+commit 3b30f00a1252d7b5f765b38268ccaabc11816c4d
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sat Jul 26 21:46:04 2014 -0400
+
+    readme: document log rotation
+
+commit cfddc663250ab4a9dd995175f15afded1df99b99
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sat Jul 26 21:37:06 2014 -0400
+
+    entry: document entry and methods
+
+commit 40069a98d66cf6190ad97b6990d672cc2324dcac
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sat Jul 26 21:26:04 2014 -0400
+
+    entry: break out time, level and message from data
+
+commit f0cb18fc85a6adc522a38a580c6d438aa29656f3
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sat Jul 26 21:03:20 2014 -0400
+
+    entry: use level string helper
+
+commit cd8fc638cc6b505f733e52aa13792ab11179580f
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sat Jul 26 21:02:08 2014 -0400
+
+    levels: add string helper
+
+commit 6be56e6e5083805a46ae9824fd4582559d07117c
+Merge: 3fed7c4 beee753
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sat Jul 26 20:48:56 2014 -0400
+
+    Merge pull request #45 from aybabtme/export-package-level-log-funcs
+    
+    Export package func to a standard logger.
+
+commit 3fed7c4632d3563356252ad88c8b31b370c49761
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sat Jul 26 20:47:50 2014 -0400
+
+    readme: backwards compatibility notice
+
+commit beee753015b78c153ea7ea90587b328a135339a2
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Wed Jul 23 17:46:43 2014 -0400
+
+    Fix missing var args expansion.
+
+commit 9a0c9801d6cdfd9bb91b4865da0e4c238c115a8a
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Wed Jul 23 16:48:53 2014 -0400
+
+    Add readme paragraph about package exported funcs.
+
+commit e5621dca87cc075c12683155e3f226dafd807559
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Tue Jul 15 18:30:01 2014 -0400
+
+    Export package func to a standard logger.
+
+commit 90a435e26a6095350f3ae16a832b21813c90b11d
+Author: Didip Kerabat <didip@newrelic.com>
+Date:   Fri Jul 18 15:48:56 2014 -0700
+
+    Update more README
+
+commit 24b6c463ab744d1029fc92ed0adaf49db1761083
+Author: Didip Kerabat <didip@newrelic.com>
+Date:   Fri Jul 18 15:47:34 2014 -0700
+
+    Update frontpage README
+
+commit 58cc2b3fec9c4cce0e5797fc26db6d4d23842c82
+Author: Didip Kerabat <didip@newrelic.com>
+Date:   Fri Jul 18 15:45:49 2014 -0700
+
+    Added README
+
+commit 5c909080d7bbd2abf674aa245a61febfc4a28430
+Author: Didip Kerabat <didipk@gmail.com>
+Date:   Fri Jul 18 00:28:40 2014 -0700
+
+    SyslogHook
+
+commit 23c2cf5a8b3e6b6186aa51ee7455641d746335d6
+Merge: 97978e5 52039d6
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Jul 15 10:34:09 2014 -0400
+
+    Merge pull request #40 from aybabtme/assert-type-avoid-panics
+    
+    Checks that the `error` field is really of `error` type.
+
+commit 52039d614e029aae92928219b9672d40f516996d
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Sun Jul 13 14:49:59 2014 -0400
+
+    Checks that the `error` field is really and `error` type.
+
+commit 97978e5e5483a3f926c2bb6e19f9e2ff344e81f0
+Merge: 9186db8 7093f67
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Jun 9 18:07:14 2014 -0400
+
+    Merge pull request #37 from eapache/fmt
+    
+    go fmt
+
+commit 7093f67073c75a4cb6f61e8bd6ead65e227c8150
+Author: Evan Huus <eapache@gmail.com>
+Date:   Mon Jun 9 16:27:33 2014 -0400
+
+    go fmt
+
+commit 9186db83c246caf127bf18525841bcaf919cb7ea
+Merge: d54646b 7a3a90c
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Jun 9 12:02:01 2014 -0400
+
+    Merge pull request #34 from shuhaowu/chained-with-fields
+    
+    Added support to chain withfields
+
+commit 7a3a90cb3dace16f6732f12bf05f469e1e921a19
+Author: Shuhao Wu <shuhao@shuhaowu.com>
+Date:   Mon Jun 9 11:53:23 2014 -0400
+
+    Added test
+
+commit 511792f912917750f1b62629b2060ca36a59f1be
+Author: Shuhao Wu <shuhao@shuhaowu.com>
+Date:   Mon Jun 9 11:31:46 2014 -0400
+
+    Added support to chain withfields
+    
+    `WithField` and `WithFields` right now doesn't chain properly. Meaning
+    that if you do something like:
+    
+        localLog := logger.WithField("tag", "value")
+        localLog.WithField("v1", "value").Info("message1")
+        localLog.Info("message2")
+    
+    The `v1` will be carried over to `message2`.
+    
+    With this patch, each WithField/WithFields call are isolated.
+
+commit d54646ba8e0f9846d5e8faee6d54c7893746e4e1
+Merge: 13600d2 0d1e231
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sun May 25 21:28:42 2014 -0400
+
+    Merge pull request #32 from aarondl/master
+    
+    Clean up text_formatter code with a byte.Buffer
+
+commit 0d1e231957dbd1841ef0dfd403704443c38279e3
+Author: Aaron L <aaron@bettercoder.net>
+Date:   Sat May 24 07:46:03 2014 -0700
+
+    Clean up text_formatter code with a byte.Buffer
+
+commit 13600d23259ccda5a64370722cc80c8928e565cb
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sat May 3 20:43:55 2014 -0400
+
+    text_formatter: move relative time logic from entry
+
+commit 11a9ddab081e0410eca69f16cd2b02079b9c8857
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sat May 3 20:42:28 2014 -0400
+
+    entry: remove duplicate hook for debug level
+
+commit b65435d801dd98b0285334c3a15506c5ce36f99a
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sat May 3 20:32:21 2014 -0400
+
+    hooks/airbrake: fix docs
+
+commit f8afa65d8681e6276fc01a28a4ea6c4aa37e2a65
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sat May 3 20:30:30 2014 -0400
+
+    test: remove temporary benchmarks
+
+commit a7c84e5d7ddfc6cc8df67210fe1cbd3c55d827d4
+Merge: 2724908 62838be
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sat May 3 20:29:54 2014 -0400
+
+    Merge pull request #27 from Sirupsen/more-tests
+    
+    More tests
+
+commit 62838be1c20d17c20bb7f6eb3dc7eea85beeb68f
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sat May 3 20:25:17 2014 -0400
+
+    hook: add tests
+
+commit 27249086edfd5c055adba162c5818dfadc7d7f48
+Merge: eeed235 d85ac80
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sat May 3 20:26:11 2014 -0400
+
+    Merge pull request #26 from Sirupsen/printfln-behavior-25
+    
+    entry: log with spaces between all operands on *ln #25
+
+commit d85ac80aa968307af8fafd3ddffff32e24e720a6
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sat May 3 19:51:12 2014 -0400
+
+    entry: log with spaces between all operands on *ln #25
+
+commit eeed23565968673c5030c8f9fe7d98593db70728
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri May 2 10:08:54 2014 -0400
+
+    entry: fire hook before obtaining reader #24 #13
+
+commit 5568a01db73b24230945a9ccd6813fac482e226f
+Merge: 3d664ea 37d48f2
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Apr 23 21:11:52 2014 -0400
+
+    Merge pull request #23 from aybabtme/patch-1
+    
+    Wrong year in LICENSE.
+
+commit 37d48f2de01e1914cd39e78c7ffbda085d0affe0
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Wed Apr 23 20:41:12 2014 -0400
+
+    Wrong year in LICENSE.
+
+commit 3d664eab7a5723b6a85336b0654be3d5a7532cf5
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Apr 23 20:21:38 2014 -0400
+
+    readme: cleanup
+
+commit bcef0f299251eedf65a773e38a0c2354a0b0c36f
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Apr 23 20:19:07 2014 -0400
+
+    airbrake: remove from root
+
+commit 2936962d6aad13c62ed745319dd64ad760e95994
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Apr 23 20:14:59 2014 -0400
+
+    readme: remove todo
+
+commit f3fbc78d3919c75e22adc1f1a8ef4c8d21e891d9
+Merge: 67dfc7a d32bfc9
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Apr 23 20:00:00 2014 -0400
+
+    Merge pull request #21 from rnapier/master
+    
+    Add Windows/FreeBSD support
+
+commit 67dfc7afbe5506937eef526767f6fd0082732a4b
+Merge: b73d083 d4f08ce
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Apr 23 19:56:07 2014 -0400
+
+    Merge pull request #17 from Sirupsen/airbrake
+    
+    hooks: add airbrake hook
+
+commit d4f08ce128f54c17d5de0b35bcf3204a7d14b957
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sun Apr 13 18:17:20 2014 -0400
+
+    hooks: add airbrake hook
+    
+    hooks: Add airbrake hook
+    
+    examples: move around to avoid overloading main
+    
+    airbarke move around
+    
+    remove tex.tgo
+    
+    readme: cleanup
+    
+    readme: try something different
+
+commit d32bfc962c3e0df796cbabe02876b61f13aa17c5
+Author: Rob Napier <robnapier@gmail.com>
+Date:   Wed Apr 23 14:21:11 2014 -0400
+
+    Add Windows/FreeBSD support
+
+commit b73d08314f2c9e4c50b563f4784b6e4a1b0b6bce
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Apr 23 16:54:53 2014 +0000
+
+    entry: make logger on entry public
+
+commit c63fbfb0fda71a4afd624714a5fdd9a37a1e61f7
+Merge: 7344642 058bed6
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Apr 21 09:02:16 2014 -0400
+
+    Merge pull request #19 from meatballhat/l2met-compat
+    
+    Switching non-TTY text formatter to use %q instead of '%v'
+
+commit 058bed65b74777c175c75df32cfe0b6df175879d
+Author: Dan Buch <dan@meatballhat.com>
+Date:   Sun Apr 20 15:38:09 2014 -0400
+
+    Modifying example to allow for both json and text formats
+    
+    and regenerating the non-TTY text output example just in case I
+    converted it wrong.
+
+commit 7c14fae98aa9b600e2289fb3e3a9a1c94eb6dd38
+Author: Dan Buch <dan@meatballhat.com>
+Date:   Sun Apr 20 15:33:11 2014 -0400
+
+    Adjusting README to account for quote style change in non-TTY text format
+    
+    plus removing link to external `l2met` formatter, as it is no longer
+    necessary.
+
+commit 79b314530261c54e8cb6cf0a089ce29ca6181c5e
+Author: Dan Buch <dan@meatballhat.com>
+Date:   Sun Apr 20 12:29:02 2014 -0400
+
+    Switching non-TTY text formatter to use %q instead of '%v'
+    
+    so that the output becomes l2met compatible yey!
+
+commit 7344642b501993e2ac905f516c9a948f371ec513
+Merge: c4d09da beb2ae0
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sun Apr 13 23:04:41 2014 -0400
+
+    Merge pull request #18 from charliesome/spacing-tweak
+    
+    Space out the walrus from the travis badge a bit
+
+commit beb2ae0661dce5d4bc2babafae8f75c6f8d33c85
+Author: Charlie Somerville <charlie@charliesomerville.com>
+Date:   Mon Apr 14 13:02:30 2014 +1000
+
+    space out the walrus from the travis badge a bit
+
+commit c4d09daeac432fff67512399fb9f6b8ab91b1a62
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sun Apr 13 17:51:46 2014 -0400
+
+    readme: add copy pasta example
+
+commit f57ecef66abffe218bf1c8450bd0b77d8c249c15
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sun Apr 13 17:39:58 2014 -0400
+
+    readme: consistent third party formatters
+
+commit 89adf765576a467aa03e4a3966d84ffa3cbaa2ea
+Merge: d4ada44 87db9d5
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sun Apr 13 17:38:59 2014 -0400
+
+    Merge pull request #16 from meatballhat/adding-l2met-third-party-formatter
+    
+    Adding link to l2met formatter
+
+commit 87db9d5eea8a6c2ee2a71ce455a8068c143b1f84
+Author: Dan Buch <dan@meatballhat.com>
+Date:   Sat Apr 12 19:07:17 2014 -0400
+
+    Adding link to l2met formatter
+
+commit d4ada4466b1f797ca9aee2bc6bed46dcdfa731ae
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Mar 26 09:30:52 2014 -0400
+
+    readme: add travis badge
+
+commit 78eb148f5296602bde4ae48858bb729be1777cc3
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Mar 26 09:29:03 2014 -0400
+
+    travis: fix deps
+
+commit d3710e718c7ff1bee1764d328a1d91fd9d90f0a3
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Mar 26 09:20:36 2014 -0400
+
+    travis: add config file
+
+commit 856b995d46fb767fe32a923b4130d11484ef5678
+Merge: f58674a 3719c88
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Mar 26 09:06:28 2014 -0400
+
+    Merge pull request #12 from Sproutling/master
+    
+    code builds -- fixes incorrect use of entry.Info, change to entry.Infof
+
+commit 3719c88c8ff93f001ad5f0c8e0e377130af4c71f
+Author: Sarah Adams <sadams.codes@gmail.com>
+Date:   Tue Mar 25 22:51:40 2014 -0700
+
+    code builds -- fixes incorrect use of entry.Info, change to entry.Infof
+
+commit f58674a4a6098a048c876969a135960479b684b2
+Merge: f9af352 9f6da0e
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Mar 25 19:14:25 2014 -0400
+
+    Merge pull request #11 from anthonybishopric/defer_formatting
+    
+    Defer formatting of log values in Levelf(), Levelln()
+
+commit 9f6da0e77c52c07f3fbc934a1a9249a05fe48c4e
+Author: Anthony Bishopric <git@anthonybishopric.com>
+Date:   Wed Mar 19 09:02:00 2014 -0700
+
+    Defer formatting of log values in Levelf(), Levelln()
+    
+    The Level() family of log methods defer formatting of log
+    values until it is confident that the log level needs them.
+    This change allows that deferral to happen at the Levelf()
+    and Levelln() levels too.
+    
+    This commit also adds benchmarks to demonstrate the improved
+    performance of these functions
+
+commit f9af352362b0b6d2d605807aadd9438cf3dcd5c7
+Merge: 5394f63 cc1a5b9
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sun Mar 16 16:17:15 2014 -0700
+
+    Merge pull request #10 from pushrax/add-forced-colors
+    
+    Add option to force TextFormatter to use colors
+
+commit cc1a5b95bc40b10211bc9672f953df5ded75fdba
+Author: Justin Li <jli.justinli@gmail.com>
+Date:   Sun Mar 16 17:27:31 2014 -0400
+
+    Add note about ForceColors in the README
+
+commit 5394f63d6b59a61b45a12b3d9679928a6bafa52d
+Merge: f33bbdd c999e7c
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sun Mar 16 14:00:54 2014 -0700
+
+    Merge pull request #9 from pushrax/fix-error-color
+    
+    Set color to red for error level output
+
+commit 436d68dedaecf5f486395a776d1ceb942606177d
+Author: Justin Li <jli.justinli@gmail.com>
+Date:   Sat Mar 15 23:36:51 2014 -0400
+
+    Add option to force TextFormatter to use colors
+
+commit c999e7c96328d5aed13bf37cee630e15088dd1e0
+Author: Justin Li <jli.justinli@gmail.com>
+Date:   Sat Mar 15 23:34:03 2014 -0400
+
+    Set color to red for error level output
+
+commit f33bbddc25a5348233b3ccd18aa93624a0236a55
+Merge: 7d02fa5 7e4ec7d
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri Mar 14 16:57:04 2014 -0400
+
+    Merge pull request #7 from aybabtme/third_party_formatter
+    
+    Add link to third party formatter in README.
+
+commit 7e4ec7df6c10ab0f2f75273d86e975ef6ff680e2
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Fri Mar 14 15:21:54 2014 -0400
+
+    Third party formatter to README.
+
+commit 7d02fa59d784a785cc06fbea5f01a92ab8d5a53e
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri Mar 14 16:17:18 2014 -0400
+
+    examples: change size to integer
+
+commit c26c4c5ff63e73592c3c227d46d8600bf385f55e
+Merge: 5707160 bf45b30
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri Mar 14 15:16:24 2014 -0400
+
+    Merge pull request #6 from aybabtme/typo_in_println
+    
+    Fix logger.StdLogger to really be a plugin stdlib/log.Logger.
+
+commit bf45b308e940cc2a593721b8fed8bef9cfb400c3
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Fri Mar 14 15:07:57 2014 -0400
+
+    Rename StandartLogger. Clean way to assert log.Logger realizes logrus
+    interface.
+
+commit 97e1bef2cc0484018fd74e2bdf12fe6d410fb25b
+Author: Antoine Grondin <antoinegrondin@gmail.com>
+Date:   Fri Mar 14 14:50:08 2014 -0400
+
+    Fix logger.StdLogger to really be a plugin stdlib/log.Logger.
+
+commit 57071602e3d3db6b5c0d3c2fa35b5c1cf215632e
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri Mar 14 13:57:55 2014 -0400
+
+    readme: remove todo on text formatter
+
+commit 0998f68ad5703121c431eb50e97b65b7de234df5
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri Mar 14 13:32:49 2014 -0400
+
+    text_formatter: ensure quoting of strings
+
+commit 52eb1c0f572cecd390ae58fff178b6df0e75ae09
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri Mar 14 13:15:01 2014 -0400
+
+    text_formatter: use %v instead
+
+commit f84cc365b12066116ed0a7a23706ecf9bec0aab2
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri Mar 14 13:02:15 2014 -0400
+
+    readme: add textformatter example to readme without tty
+
+commit 1000975e52c529eaf5efaab0e30fdcb709d6f55c
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri Mar 14 13:01:06 2014 -0400
+
+    text_formatter: change to simpler k-v when no tty
+
+commit ddcbea3dbabf5fa9413fc69270ea357823ba7736
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Mar 13 09:23:52 2014 -0400
+
+    license: add MIT
+
+commit cf9baa9ace2c5edf5370a376465182d50fedc781
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Mar 13 08:44:08 2014 -0400
+
+    readme: add godoc
+
+commit d02c5b387e40564c1197e8cff46e5c7255cd083b
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Mar 12 10:34:29 2014 -0400
+
+    docs: add documentation for godoc
+
+commit 1e8a7996182e48e0f0e305ec1f3a3b3256225b25
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Mar 12 10:10:22 2014 -0400
+
+    entry: move hook firing to entry.log
+
+commit cd5805716d38407a7c61cdab2d9174e870d05e5d
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Mar 12 08:00:18 2014 -0400
+
+    readme: add notes on logging levels
+
+commit 44ead1098680ab766b6fd4cfe69fce99b65dd102
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Mar 12 07:59:22 2014 -0400
+
+    readme: complete hook example
+
+commit e4692873299c2a4f5e7b83fef568293b1efd1ac6
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Mar 11 11:07:32 2014 -0400
+
+    readme: add walrus
+
+commit c86733fba06968ba6c5bd9f8ce45f253548517d5
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Mar 11 11:01:18 2014 -0400
+
+    readme: add more motivation for fields
+
+commit 8fb601a60b8b316949c989290d829e5391733dc9
+Merge: 1399b22 927450c
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Tue Mar 11 10:56:33 2014 -0400
+
+    Merge pull request #3 from bouk/less-code=better
+    
+    hooks: Remove unnecessary explicit slice creation
+
+commit 927450cad5ff451f0a01218589b98715aa35a6d5
+Author: Bouke van der Bijl <boukevanderbijl@gmail.com>
+Date:   Tue Mar 11 10:45:27 2014 -0400
+
+    hooks: Remove unnecessary explicit slice creation
+
+commit 1399b22d124793649dd1beb9343764363aeded06
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Mar 10 23:23:53 2014 -0400
+
+    readme: fix hook
+
+commit 333c89518dc9d49e382c96220391734a18431842
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Mar 10 21:15:25 2014 -0400
+
+    readme: add todo
+
+commit 7056845d0fb52ab4486a4b584906735ed2ef2514
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Mar 10 20:32:22 2014 -0400
+
+    readme: add other hook example
+
+commit 9f6d81e31e8c3fcd8fa0dfbc2828ed75213042a1
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Mar 10 20:07:22 2014 -0400
+
+    readme: add golang
+
+commit 2bb88683a149270fee6955d8c9e9200612e4bc40
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Mar 10 20:06:39 2014 -0400
+
+    readme: cleanup
+
+commit 6957054c6037c445ddcbe097576456bb85c5f871
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Mar 10 20:01:41 2014 -0400
+
+    readme: fix description
+
+commit f234137534a2c4eb6e159407a71421d4ceb47f21
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Mar 10 20:01:07 2014 -0400
+
+    readme: add examples of json
+
+commit 0719d9a9d89213b5e990728bfc2198ffae743b61
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Mar 10 20:00:07 2014 -0400
+
+    readme: fix image
+
+commit ec306913da34d1137ef8c01f768a58a41ad675f5
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Mar 10 19:59:18 2014 -0400
+
+    Fix example
+
+commit afde6aea11f7f572803b22b193308050d67b33a1
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Mar 10 19:52:39 2014 -0400
+
+    levels: add to logger type
+
+commit d3ee06cc28f1d9a6e88c7ef6d7106ced1378a2fb
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Mar 10 19:30:06 2014 -0400
+
+    readme: add comments
+
+commit 23c5312e6730e35bb121f5903baa01f307d048c8
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Mar 10 19:27:19 2014 -0400
+
+    readme: update
+
+commit 090d6b7550d1305bffe5b28acd9fc3418d1fe7e7
+Merge: bc7134c 53371e3
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Mar 10 19:22:35 2014 -0400
+
+    Merge pull request #1 from Sirupsen/initial
+    
+    Initial commit
+
+commit 53371e36641339bc393fe4e2d1fcf25d84bd0208
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Mar 10 19:22:08 2014 -0400
+
+    Add features from README
+
+commit e155f76d1bb46189c582ab9eac6943b1cb8c023c
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sat Mar 8 10:55:15 2014 -0500
+
+    readme: remove error
+
+commit 8fe53025b689960bcd4cda4a896460c4dd9c20aa
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Fri Mar 7 12:51:29 2014 -0500
+
+    readme: update after removing env
+
+commit 7769e38becba167fe004f046edf19b4937355ddd
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Mar 6 21:49:10 2014 -0500
+
+    readme: add setting level instructions
+
+commit 8492d88e94f9a11fe016b46ec0d183011830c33f
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Mar 6 21:26:05 2014 -0500
+
+    readme: dont use printf
+
+commit 52eb6b2fe675fd6d3462833579b01ca4ca0c0bc2
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Mar 6 21:20:13 2014 -0500
+
+    readme: update
+
+commit f803b61ca1c6614cb0b8b6a771ed5624d49391f2
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Mar 6 09:56:52 2014 -0500
+
+    entry: keys colored by severity
+
+commit 494c757ca75830048ce8d83b043ea7ac4791fccd
+Merge: 3ef01c6 e3978aa
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Thu Mar 6 09:40:59 2014 -0500
+
+    Merge pull request #2 from burke/initial
+    
+    This is sort of what I want the log output to look like.
+
+commit e3978aa87cdcb3c46a7e146f7c042e07f2bf9f5e
+Author: Burke Libbey <burke@libbey.me>
+Date:   Tue Mar 4 11:44:09 2014 -0500
+
+    morehax
+
+commit ce9bacf7b3f0e248e2fb45d3cdeee23d6aa0ff44
+Author: Burke Libbey <burke@libbey.me>
+Date:   Tue Mar 4 11:38:21 2014 -0500
+
+    quickhax
+
+commit 3ef01c6291b5585a44ecd92c55977b96932f5056
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Mar 3 17:35:32 2014 -0500
+
+    entry: don't panic
+
+commit b7027167d50f2642d28cb6e6f0b6e2a48d3c3cae
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Mar 3 17:33:35 2014 -0500
+
+    entry: add basic coloring if tty is a terminal
+
+commit 0b5ff9bceffcad72a317110281aa1bf827cd25ed
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Feb 24 06:35:56 2014 -0500
+
+    Fix examples formatting
+
+commit 11dbaff3525030bc8eba6c76b11142f905235786
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Mon Feb 24 06:34:12 2014 -0500
+
+    Code review fixes
+
+commit b6f53cb91ba959dc42b6659fd843c41b70d47bb6
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sun Feb 23 20:19:34 2014 -0500
+
+    README: rewrite
+
+commit 520486e2442168155a73b28e0803a0f9a9f37285
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sun Feb 23 20:07:09 2014 -0500
+
+    Add examples
+
+commit 0bd36d372c159acc5f9eba775d7c1932cf8bc638
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sun Feb 23 19:53:50 2014 -0500
+
+    code cleanup
+
+commit 6c895096e850ba3210087d435d3867a0d4c4a68f
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sun Feb 23 19:50:42 2014 -0500
+
+    split into multiple files
+
+commit 84ff01f44417050249ccc12cf9a69bfd55fe6e0c
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Sun Feb 23 09:57:04 2014 -0500
+
+    Initial commit
+
+commit bc7134c30540965b26b14722a9643b386ddf7971
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Oct 16 15:28:51 2013 -0400
+
+    Fix some quotes
+
+commit f7a4f6311b045c7b63b17b1e59d0e57a3485c358
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Oct 16 15:28:25 2013 -0400
+
+    Fix comments
+
+commit 835cd13cb52f1938fbf3754ab6efb295a329f17a
+Author: Simon Eskildsen <sirup@sirupsen.com>
+Date:   Wed Oct 16 15:27:10 2013 -0400
+
+    Add initial README for discussion

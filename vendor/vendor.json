@@ -1,0 +1,57 @@
+{
+	"comment": "",
+	"ignore": "",
+	"package": [
+		{
+			"checksumSHA1": "39c+shSLmvturiMmkG4MjIFQQB4=",
+			"path": "github.com/davecgh/go-spew/spew",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "u62GoEI9HBTtKT7JoTI+JxRPN/s=",
+			"path": "github.com/pmezard/go-difflib/difflib",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "RUWH3P/hp3jot3m9u0LKpewxaF0=",
+			"path": "github.com/sirupsen/logrus",
+			"revision": "a3f95b5c423586578a4e099b11a46c2479628cac",
+			"revisionTime": "2017-07-13T11:42:50Z"
+		},
+		{
+			"checksumSHA1": "5XAzjZrdlLh1mgd7xEvoK6LeLCA=",
+			"path": "github.com/stretchr/testify/assert",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "NmnVg7xsMpgFxXA1vGBxw7i2GZw=",
+			"path": "github.com/xeipuuv/gojsonpointer",
+			"revision": "6fe8760cad3569743d51ddbb243b26f8456742dc",
+			"revisionTime": "2017-02-25T23:34:18Z"
+		},
+		{
+			"checksumSHA1": "BY7Tay1BrYwP4Rp9VOAjVXOWAxc=",
+			"path": "github.com/xeipuuv/gojsonreference",
+			"revision": "e02fc20de94c78484cd5ffb007f8af96be030a45",
+			"revisionTime": "2015-08-08T06:50:54Z"
+		},
+		{
+			"checksumSHA1": "2D1mJIII6NsRGa3MBnfY1uO8hUU=",
+			"path": "golang.org/x/sys/unix",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "538I8ghUdvZa25NxgMUDpq14Qic=",
+			"path": "gopkg.in/check.v1",
+			"revision": "20d25e2804050c1cd24a7eea1e7a6447dd0e74ec",
+			"revisionTime": "2016-12-08T18:13:25Z"
+		},
+		{
+			"checksumSHA1": "7T9LfxhVWpILdue+I8x1csibg+M=",
+			"path": "gopkg.in/yaml.v2",
+			"revision": "25c4ec802a7d637f88d584ab26798e94ad14c13b",
+			"revisionTime": "2017-07-21T12:20:51Z"
+		}
+	],
+	"rootPath": "github.com/isula/isula-composer"
+}

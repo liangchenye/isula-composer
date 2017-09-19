@@ -1,0 +1,67 @@
+initrootfs:
+  file: "baserootfs.yml"
+kernel:
+  cmdline: "oops=panic softlockup_panic=1 nmi_watchdog=1 panic=3 selinux=0 rd.shell=0"
+features:
+  - ostree
+  - docker
+  - compress-tool
+  - logrotate
+addpackages:
+  - vim-minimal
+  - ntp
+  - xfsprogs
+  - euleros-latest-release
+  - sysmonitor-kmod
+  - security-tool
+  - irqbalance
+rmpackages:
+  - basesystem
+  - binutils
+  - dmidecode
+  - checkpolicy
+  - policycoreutils-python
+  - expat-devel
+  - fipscheck
+  - gdbm
+  - gnutls
+  - groff-base
+  - grubby
+  - gsettings-desktop-schemas
+  - info
+  - make
+  - mokutil
+  - nettle
+  - newt
+  - newt-python
+  - policycoreutils
+  - os-prober
+  - p11-kit  
+  - p11-kit-trust
+  - pinentry
+  - pkgconfig
+  - gnupg2
+  - pth
+  - shared-mime-info
+  - slang
+  - trousers
+  - ethtool
+  - acl
+  - nss-tools
+  - glib-networking
+  - docker-engine-selinux
+  - glibc-common
+  - bind-license
+  - ca-certificates
+  - dhcp-common
+  - binutils
+  - libdb-utils
+files:
+    add:
+    remove: ["/usr/lib/modules/.*/kernel/drivers/gpu", "/usr/lib/modules/.*/kernel/sound",
+             "/usr/lib/modules/.*/kernel/drivers/auxdisplay", "/usr/lib/modules/.*/kernel/drivers/leds",
+             "/usr/lib/modules/.*/kernel/drivers/media", "/usr/lib/modules/.*/kernel/drivers/net/wireless",
+             "/usr/etc/selinux/targeted/modules", "/usr/share/backgrounds", "/usr/share/kde4", "/usr/share/anaconda",
+             "/usr/lib/firmware/radeon"]
+outputs:
+  - iso

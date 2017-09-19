@@ -1,0 +1,45 @@
+initrootfs:
+  file: "baserootfs.yml"
+kernel:
+  cmdline: "crash_kexec_post_notifiers oops=panic softlockup_panic=1 nmi_watchdog=1 crashkernel=256M@48M reserve_kbox_mem=16M panic=3 rd.shell=0"
+features:
+  - ostree
+  - cloud-init
+  - docker
+  - selinux
+  - compress-tool
+  - multipath
+  - iptables
+  - text-editor
+  - network-config
+  - cockpit
+  - time-sync
+  - openvswitch
+  - monitor-alert
+  - lxcfs
+  - hypercontainer
+  - logrotate
+addpackages:
+  - kexec-tools
+  - biosdevname
+  - xfsprogs
+  - s3fs-fuse
+  - cloud-utils-growpart
+  - bridge-utils
+  - nfs-utils
+  - tuned
+  - irqbalance
+  - bash-completion
+  - rsync
+  - tmux
+  - subscription-manager
+  - libsecurec
+  - killproc
+  - kbox
+  - euleros-latest-release
+  - sysmonitor-kmod
+  - security-tool
+rmpackages:
+files:
+outputs:
+  - iso
