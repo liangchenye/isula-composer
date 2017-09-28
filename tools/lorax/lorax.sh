@@ -17,7 +17,11 @@ lorax --nomacboot --add-template=${ImageDir}/../tools/lorax/lorax.tmpl \
 --add-template-var=kern_cmdline="${Cmdline}" \
 --logfile=${ImageDir}/../lorax.log \
 -p "EulerOS V2.0SP3" -v iSula -r 1 --isfinal --buildarch=x86_64 \
--s ${RepoAddr} \
+-s $RepoAddr \
+-s http://mirror.centos.org/centos/7/updates/x86_64/ \
+-s http://mirror.centos.org/centos/7/extras/x86_64/ \
+-s http://mirror.centos.org/centos/7/os/x86_64/ \
+-s http://buildlogs.centos.org/centos/7/atomic/x86_64/Packages/ \
 ${ImageDir}/antos_tmp/lorax
 rm -rf ${ImageDir}/antos_tmp/images
 mkdir ${ImageDir}/antos_tmp/images

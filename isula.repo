@@ -1,0 +1,8 @@
+[euleros]
+name=EulerOS
+baseurl=http://ocihub.org:8081/repo/2.2-rc3/
+gpgcheck=0
+[extra]
+name=EulerOS-Extra
+baseurl=http://ocihub.org:8081/repo/extra/
+gpgcheck=0
