@@ -48,7 +48,7 @@ func main() {
 	flagVerbose := flag.Bool("v", false, "Verbose execution")
 	configFile := flag.String("f", "", "Specify a YAML config file")
 	outputType := flag.String("t", "", "Specify output image type")
-	repoAddr = flag.String("r", "http://euleros-obs-repo.huawei.com:82/EulerOS_ALL/EulerOS_x86/",
+	repoAddr = flag.String("r", "http://ocihub.org:8081/repo/2.2-rc3/",
 		"Specify Yum repo address")
 	flagHelp := flag.Bool("h", false, "help message")
 
