@@ -1,0 +1,123 @@
+initrootfs:
+  file: "baserootfs.yml"
+kernel:
+  cmdline: "crash_kexec_post_notifiers oops=panic softlockup_panic=1 nmi_watchdog=1 crashkernel=256M@48M panic=3 selinux=0"
+features:
+  - compress-tool
+addpackages:
+  - vim-minimal
+  - ntp
+  - cronie
+  - crontabs
+  - pygpgme
+  - pyliblzma
+  - python-iniparse
+  - python-pycurl
+  - python-urlgrabber
+  - pyxattr
+  - rootfiles
+  - rpm-build-libs
+  - rpm-python
+  - yum
+  - yum-metadata-parser
+
+rmpackages:
+  - dmidecode
+  - checkpolicy
+  - policycoreutils-python
+  - gnutls
+  - grubby
+  - gsettings-desktop-schemas
+  - make
+  - mokutil
+  - nettle
+  - newt
+  - newt-python
+  - policycoreutils
+  - os-prober
+  - slang
+  - trousers
+  - ethtool
+  - glib-networking
+  - docker-engine-selinux
+  - bind-license
+  - dhcp-common
+  - audit-libs-python
+  - authconfig
+  - autogen-libopts
+  - bind-libs-lite
+  - bubblewrap
+  - bzip2
+  - device-mapper-event
+  - device-mapper-event-libs
+  - device-mapper-persistent-data
+  - dhclient
+  - dhcp-libs
+  - docker-engine
+  - dracut
+  - dracut-network
+  - dump_mem_tool
+  - e2fsprogs
+  - e2fsprogs-libs
+  - efibootmgr
+  - efivar-libs
+  - euleros-logos
+  - freetype
+  - GeoIP
+  - gettext
+  - gettext-libs
+  - grub2
+  - grub2-efi
+  - grub2-tools
+  - initscripts
+  - json-c
+  - json-glib
+  - kexec-tools
+  - libaio
+  - libarchive
+  - libcgroup
+  - libedit
+  - libestr
+  - libmodman
+  - libproxy
+  - librepo
+  - libseccomp
+  - libsecurec
+  - libselinux-python
+  - libselinux-utils
+  - libsemanage-python
+  - libsolv
+  - libsoup
+  - libss
+  - libtool-ltdl
+  - linux-firmware
+  - logrotate
+  - lvm2
+  - lvm2-libs
+  - lzo
+  - makedumpfile
+  - ntp
+  - ntpdate
+  - openssh
+  - openssh-clients
+  - openssh-server
+  - openssl
+  - ostree
+  - ostree-grub2
+  - ostree-remote-add
+  - pciutils-libs
+  - python-IPy
+  - rpm-ostree
+  - rsyslog
+  - selinux-policy
+  - selinux-policy-targeted
+  - setools-libs
+  - shim-unsigned
+  - sysvinit-tools
+
+files:
+    add:
+    remove: ["/boot", "/etc/firewalld/", "/var/cache/yum/x86_64", "/tmp/ks-script*", "/var/log/anaconda", "/etc/sysconfig/network-scripts/ifcfg-*",
+             "/etc/udev/hwdb.bin", "/usr/lib/udev/hwdb.d/*", "rm /var/run/nologin"]
+outputs:
+  - baseimg
